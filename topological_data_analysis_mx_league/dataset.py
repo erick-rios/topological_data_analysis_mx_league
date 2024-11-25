@@ -1,13 +1,15 @@
+import pickle
 from pathlib import Path
+
+import pandas as pd
+from bs4 import BeautifulSoup
 from loguru import logger
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options as ChromeOptions
-from bs4 import BeautifulSoup
-import pandas as pd
-import pickle
+from selenium.webdriver.chrome.service import Service as ChromeService
 
 from topological_data_analysis_mx_league.config import PROCESSED_DATA_DIR
+
 
 def scrape_and_save_with_selenium(output_path: Path, url: str, table_id: str):
     """
