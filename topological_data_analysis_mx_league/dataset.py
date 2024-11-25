@@ -8,7 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.chrome.service import Service as ChromeService
 
-from topological_data_analysis_mx_league.config import PROCESSED_DATA_DIR
+from topological_data_analysis_mx_league.config import RAW_DATA_DIR
 
 
 def scrape_and_save_with_selenium(output_path: Path, url: str, table_id: str):
@@ -62,7 +62,7 @@ def scrape_and_save_with_selenium(output_path: Path, url: str, table_id: str):
 
 if __name__ == "__main__":
     scrape_and_save_with_selenium(
-        output_path=PROCESSED_DATA_DIR / "liga_mx_stats.pkl",
+        output_path=RAW_DATA_DIR / "liga_mx_stats.pkl",
         url="https://fbref.com/es/comps/31/stats/Estadisticas-de-Liga-MX",
         table_id="stats_standard",
     )
