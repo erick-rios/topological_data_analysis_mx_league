@@ -1,5 +1,4 @@
 from pathlib import Path
-
 import pandas as pd
 import numpy as np
 import typer
@@ -85,6 +84,13 @@ def main(
             for col in df.columns
         ]
 
+        # Filtrar las columnas que te interesan
+        columns_to_keep = [
+            "Jugador", "País", "Posc", "Equipo", "Edad", "Nacimiento", 
+            "PJ", "Titular", "Mín", "90 s", "Gls.", "Ass", "TP", "TA", "TR"
+        ]
+        df = df[columns_to_keep]
+
         # Guardar el dataset normalizado
         logger.info(f"Saving normalized dataset to {output_path}...")
         df.to_csv(output_path, index=False)
@@ -96,5 +102,4 @@ def main(
 
 if __name__ == "__main__":
     app()
-
 
