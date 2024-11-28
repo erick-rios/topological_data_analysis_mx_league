@@ -5,96 +5,107 @@ import typer
 from loguru import logger
 from tqdm import tqdm
 
-from topological_data_analysis_mx_league.config import RAW_DATA_DIR
-from topological_data_analysis_mx_league.config import PROCESSED_DATA_DIR
+from topological_data_analysis_mx_league.config import RAW_DATA_DIR, PROCESSED_DATA_DIR
 
 app = typer.Typer()
 
 @app.command()
 def main(
-    input_path: Path = RAW_DATA_DIR / "liga_mx_stats.pkl",
-    output_path: Path = PROCESSED_DATA_DIR / "normalized_features.csv",
+    input_path: Path = RAW_DATA_DIR / "liga_mx_stats.csv",
+    output_path: Path = PROCESSED_DATA_DIR / "cleaned_liga_mx_data.csv",
 ):
+    """
+    Cleans and preprocesses Liga MX data for topological data analysis. 
+    The script:
+    - Removes invalid rows (e.g., repeated header rows within the file).
+    - Extracts only relevant columns for analysis.
+    - Cleans numerical columns (e.g., "Age") and normalizes stats based on minutes played.
+    - Detects and handles outliers.
+    - Saves the cleaned dataset to a new file.
+
+    Args:
+        input_path (Path): Path to the raw dataset (CSV format).
+        output_path (Path): Path to save the cleaned dataset (CSV format).
+    """
     try:
         logger.info(f"Loading dataset from {input_path}...")
-        with open(input_path, "rb") as f:
-            df = pd.DataFrame(pd.read_pickle(f))
 
-        # Aplanar las columnas de MultiIndex
-        df.columns = ["_".join(col).strip() for col in df.columns.values]
+        # Load the dataset while ignoring the first row and fixing headers
+        df = pd.read_csv(input_path, skiprows=1)
+        logger.info("Dataset loaded successfully.")
 
-        # Inspección de las columnas
-        logger.info(f"Flattened dataset columns: {df.columns.tolist()}")
+        # Remove rows that are repeated header rows
+        logger.info("Removing repeated header rows...")
+        df = df[df["RL"] != "RL"]
 
-        # Ajustar los nombres de las columnas requeridas al nuevo formato
-        required_columns = [
-            "Unnamed: 1_level_0_Jugador",
-            "Tiempo Jugado_Mín",
-            "Rendimiento_Gls.",
-            "Rendimiento_Ass",
-        ]
-        missing_columns = [col for col in required_columns if col not in df.columns]
-        if missing_columns:
-            logger.error(f"Missing columns in dataset: {missing_columns}")
-            return
-
-        logger.info("Performing exploratory data analysis...")
-        logger.info(f"Dataset shape: {df.shape}")
-        logger.info(f"Dataset summary:\n{df.describe(include='all')}")
-
-        # Limpieza de datos
-        logger.info("Cleaning dataset...")
-        # Eliminar columnas completamente vacías
-        df.dropna(how="all", axis=1, inplace=True)
-
-        # Rellenar valores faltantes en columnas numéricas con 0
-        numeric_columns = df.select_dtypes(include=[np.number]).columns.tolist()
-        df[numeric_columns] = df[numeric_columns].fillna(0)
-
-        # Rellenar valores faltantes en columnas no numéricas con una etiqueta predeterminada
-        non_numeric_columns = df.select_dtypes(exclude=[np.number]).columns.tolist()
-        df[non_numeric_columns] = df[non_numeric_columns].fillna("Unknown")
-
-        # Mostrar valores únicos en columnas no numéricas para identificar errores
-        for col in non_numeric_columns:
-            logger.info(f"Unique values in column '{col}': {df[col].unique()}")
-
-        # Convertir columnas relevantes a numéricas
-        columns_to_normalize = ["Tiempo Jugado_Mín", "Rendimiento_Gls.", "Rendimiento_Ass"]
-        for col in columns_to_normalize:
-            df[col] = pd.to_numeric(df[col], errors="coerce")
-
-        # Eliminar filas con valores nulos después de la conversión
-        df.dropna(subset=columns_to_normalize, inplace=True)
-
-        # Filtrar filas donde "Tiempo Jugado_Mín" sea mayor a 0
-        df = df[df["Tiempo Jugado_Mín"] > 0]
-
-        # Normalización de datos
-        logger.info("Normalizing data by minutes played...")
-        stats_columns = ["Rendimiento_Gls.", "Rendimiento_Ass"]
-        for col in tqdm(stats_columns, desc="Normalizing stats"):
-            df[col + "_per_minute"] = df[col] / df["Tiempo Jugado_Mín"]
-
-        # Renombrar columnas
-        logger.info("Renaming columns...")
-        df.drop(df.columns[0], axis=1, inplace=True)  # Eliminar la columna 0
+        # Ensure correct column names
+        logger.info("Assigning proper column names...")
         df.columns = [
-            col.split("_")[-1] if "_" in col else col  # Conservar solo la última parte después del "_"
-            for col in df.columns
+            "RL", "Player", "Country", "Position", "Team", "Age", "Birthdate", 
+            "Matches_Played", "Starts", "Minutes", "90s", "Goals", "Assists", 
+            "G+A", "G-TP", "Shots_on_Target", "Shots", "Yellow_Cards", 
+            "Red_Cards", "xG", "npxG", "xAG", "npxG+xAG", "Progressive_Carries", 
+            "Progressive_Passes", "Progressive_Receptions", "Goals_per_90", 
+            "Assists_per_90", "G+A_per_90", "G-TP_per_90", "G+A-TP_per_90", 
+            "xG_per_90", "xAG_per_90", "xG+xAG_per_90", "npxG_per_90", 
+            "npxG+xAG_per_90", "Matches"
         ]
 
-        # Filtrar las columnas que te interesan
-        columns_to_keep = [
-            "Jugador", "País", "Posc", "Equipo", "Edad", "Nacimiento", 
-            "PJ", "Titular", "Mín", "90 s", "Gls.", "Ass", "TP", "TA", "TR"
-        ]
+        # Select only relevant columns for analysis
+        logger.info("Filtering relevant columns...")
+        columns_to_keep = ["Player", "Country", "Position", "Team", "Age", 
+                           "Matches_Played", "Minutes", "Goals", "Assists", 
+                           "Shots_on_Target", "Yellow_Cards", "Red_Cards"]
         df = df[columns_to_keep]
 
-        # Guardar el dataset normalizado
-        logger.info(f"Saving normalized dataset to {output_path}...")
+        # Extract the integer part of the "Age" column (before the "-")
+        logger.info("Cleaning 'Age' column...")
+        df["Age"] = df["Age"].str.split("-").str[0].astype(float)
+
+        # Ensure all numeric columns are properly formatted
+        logger.info("Converting columns to numeric...")
+        numeric_columns = [
+            "Age", "Matches_Played", "Minutes", "Goals", "Assists", 
+            "Shots_on_Target", "Yellow_Cards", "Red_Cards"
+        ]
+        for col in numeric_columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+
+        # Remove rows with missing values in numeric columns
+        df.dropna(subset=numeric_columns, inplace=True)
+
+        # Filter rows where "Minutes" > 0
+        logger.info("Filtering players with valid minutes played...")
+        df = df[df["Minutes"] > 0]
+
+        # Detect and handle outliers
+        logger.info("Detecting and handling outliers...")
+        for col in numeric_columns:
+            q1 = df[col].quantile(0.25)
+            q3 = df[col].quantile(0.75)
+            iqr = q3 - q1
+            lower_bound = q1 - 1.5 * iqr
+            upper_bound = q3 + 1.5 * iqr
+
+            # Cap values outside the bounds
+            df[col] = np.where(df[col] < lower_bound, lower_bound, df[col])
+            df[col] = np.where(df[col] > upper_bound, upper_bound, df[col])
+
+        # Normalize numeric stats based on minutes played
+        logger.info("Normalizing stats per minute played...")
+        stats_columns = ["Goals", "Assists", "Shots_on_Target", "Yellow_Cards", "Red_Cards"]
+        for col in tqdm(stats_columns, desc="Normalizing stats"):
+            df[f"{col}_per_minute"] = df[col] / df["Minutes"]
+
+        # Remove duplicate entries based on the "Player" column
+        logger.info("Removing duplicate player entries...")
+        df.drop_duplicates(subset=["Player"], inplace=True)
+
+        # Save the cleaned dataset
+        logger.info(f"Saving cleaned dataset to {output_path}...")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
         df.to_csv(output_path, index=False)
-        logger.success("Feature generation, normalization, and column renaming complete.")
+        logger.success("Dataset cleaning and normalization complete.")
 
     except Exception as e:
         logger.error(f"An error occurred: {e}")
@@ -102,4 +113,3 @@ def main(
 
 if __name__ == "__main__":
     app()
-

@@ -12,99 +12,56 @@ app = typer.Typer()
 
 @app.command()
 def main(
-    input_path: Path = PROCESSED_DATA_DIR / "normalized_features.csv",  # ruta de entrada al archivo CSV
-    output_dir: Path = FIGURES_DIR,  # directorio para guardar las figuras generadas
+    input_path: Path = PROCESSED_DATA_DIR / "cleaned_liga_mx_data.csv",
+    output_dir: Path = FIGURES_DIR / "exploratory_analysis",
 ):
-    # Cargar el dataset
+    # Crear directorio de salida si no existe
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Cargar dataset
     logger.info(f"Loading dataset from {input_path}...")
     df = pd.read_csv(input_path)
 
-    # Estadísticas descriptivas
-    logger.info("Generating descriptive statistics...")
-    logger.info(f"Dataset summary:\n{df.describe(include='all')}")
-
-    # Graficar las distribuciones de variables numéricas
+    # Filtrar columnas numéricas y categóricas
     numeric_columns = df.select_dtypes(include=['float64', 'int64']).columns.tolist()
-    logger.info(f"Numeric columns found: {numeric_columns}")
-    
+    logger.info(f"Numeric columns: {numeric_columns}")
+
+    # Crear histogramas para variables numéricas
+    logger.info("Generating histograms for numeric columns...")
     for col in numeric_columns:
         plt.figure(figsize=(8, 6))
-        sns.histplot(df[col], kde=True, color='skyblue', bins=20)
-        plt.title(f"Distribution of {col}")
-        plt.xlabel(col)
-        plt.ylabel('Frequency')
+        sns.histplot(df[col], kde=True, bins=20, color='skyblue', alpha=0.8)
+        plt.title(f"Distribution of {col}", fontsize=14)
+        plt.xlabel(col, fontsize=12)
+        plt.ylabel("Frequency", fontsize=12)
         plt.tight_layout()
-        plt.savefig(output_dir / f"{col}_distribution.png")
+        file_path = output_dir / f"{col}_histogram.png"
+        plt.savefig(file_path, dpi=300)
         plt.close()
+        logger.info(f"Saved histogram for {col} to {file_path}")
 
-    # Graficar Box plots
-    logger.info("Generating box plots...")
-    for col in numeric_columns:
-        plt.figure(figsize=(8, 6))
-        sns.boxplot(x=df[col], color='salmon')
-        plt.title(f"Box plot of {col}")
-        plt.xlabel(col)
-        plt.tight_layout()
-        plt.savefig(output_dir / f"{col}_boxplot.png")
-        plt.close()
-
-    # Graficar un gráfico de pastel para las variables categóricas
-    categorical_columns = df.select_dtypes(include=['object']).columns.tolist()
-    logger.info(f"Categorical columns found: {categorical_columns}")
-    
-    # Preprocesar la columna "Edad" para obtener solo la parte entera de la edad
-    if 'Edad' in df.columns:
-        # Eliminar los valores "Unknown" o no numéricos antes de proceder
-        df['Edad'] = df['Edad'].str.split('-', expand=True)[0]
-        df['Edad'] = pd.to_numeric(df['Edad'], errors='coerce')  # Convertir a numérico, convertir errores a NaN
-        df = df.dropna(subset=['Edad'])  # Eliminar filas con valores NaN en 'Edad'
-
-    for col in categorical_columns:
-        if col == "Edad":
-            # Generar gráfico de pastel solo con la edad entera
-            plt.figure(figsize=(8, 6))
-            df['Edad'].value_counts().plot.pie(autopct='%1.1f%%', colors=sns.color_palette("Set3", len(df['Edad'].unique())))
-            plt.title("Age Distribution")
-            plt.ylabel('')
-            plt.tight_layout()
-            plt.savefig(output_dir / f"{col}_pie_chart.png")
-            plt.close()
-        else:
-            # Para otras columnas categóricas, se generan gráficos de pastel como antes
-            plt.figure(figsize=(8, 6))
-            df[col].value_counts().plot.pie(autopct='%1.1f%%', colors=sns.color_palette("Set3", len(df[col].unique())))
-            plt.title(f"Pie chart of {col}")
-            plt.ylabel('')
-            plt.tight_layout()
-            plt.savefig(output_dir / f"{col}_pie_chart.png")
-            plt.close()
-
-    # Heatmap de correlación para ver las relaciones lineales
+    # Heatmap de correlación
     logger.info("Generating correlation heatmap...")
+    plt.figure(figsize=(12, 10))
     correlation_matrix = df[numeric_columns].corr()
-    plt.figure(figsize=(10, 8))
-    sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5, cbar_kws={"shrink": .8})
-    plt.title('Correlation Heatmap')
+    sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f', cbar_kws={"shrink": 0.8}, linewidths=0.5)
+    plt.title('Correlation Heatmap', fontsize=16)
     plt.tight_layout()
-    plt.savefig(output_dir / "correlation_heatmap.png")
+    heatmap_path = output_dir / "correlation_heatmap.png"
+    plt.savefig(heatmap_path, dpi=300)
     plt.close()
+    logger.info(f"Saved correlation heatmap to {heatmap_path}")
 
-    # Pairplot para ver relaciones entre las variables
-    logger.info("Generating pairplot...")
-    sns.pairplot(df[numeric_columns], diag_kind="kde", plot_kws={'alpha':0.5, 's':50})
-    plt.suptitle("Pairplot of Numeric Columns", y=1.02)
-    plt.tight_layout()
-    plt.savefig(output_dir / "pairplot.png")
+    # Pairplot para relaciones entre variables numéricas
+    logger.info("Generating pairplot for numeric columns...")
+    pairplot_path = output_dir / "pairplot_numeric_columns.png"
+    pairplot = sns.pairplot(df[numeric_columns], diag_kind="kde", plot_kws={'alpha': 0.6, 's': 40})
+    pairplot.fig.suptitle("Pairplot of Numeric Columns", y=1.02, fontsize=16)
+    pairplot.savefig(pairplot_path, dpi=300)
     plt.close()
+    logger.info(f"Saved pairplot to {pairplot_path}")
 
-    # Tabla de frecuencias para variables categóricas
-    logger.info("Generating frequency tables for categorical variables...")
-    for col in categorical_columns:
-        frequency_table = df[col].value_counts()
-        logger.info(f"Frequency table for {col}:\n{frequency_table}")
-        frequency_table.to_csv(output_dir / f"{col}_frequency_table.csv")
-
-    logger.success("Exploratory data analysis and visualizations complete.")
+    logger.success("EDA visualizations saved as PNG files in the output directory.")
 
 if __name__ == "__main__":
     app()

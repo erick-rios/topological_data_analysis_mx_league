@@ -4,77 +4,87 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import typer
 from loguru import logger
-from tqdm import tqdm
 from ripser import ripser
 from scipy.spatial import distance_matrix
-import numpy as np
-
-from topological_data_analysis_mx_league.config import FIGURES_DIR, PROCESSED_DATA_DIR
+from topological_data_analysis_mx_league.config import FIGURES_DIR, INTERIM_DATA_DIR
 
 app = typer.Typer()
 
 @app.command()
 def main(
-    input_path: Path = PROCESSED_DATA_DIR / "normalized_features.csv",
+    input_path: Path = INTERIM_DATA_DIR / "pca_components.csv",
     output_path: Path = FIGURES_DIR / "persistent_homology",
+    maxdim: int = 2,
 ):
     try:
         logger.info("Loading dataset...")
         df = pd.read_csv(input_path)
 
-        # Inspección inicial de las columnas
-        logger.info(f"Loaded dataset with columns: {df.columns.tolist()}")
-
-        # Seleccionar solo las columnas numéricas para el análisis topológico
+        # Seleccionar solo las columnas numéricas
+        logger.info("Filtering numeric columns...")
         numeric_columns = df.select_dtypes(include=[float, int]).columns.tolist()
-
-        # Filtrar los datos numéricos
         df_numeric = df[numeric_columns]
+
+        # Validar si hay datos suficientes
+        if df_numeric.empty:
+            raise ValueError("No numeric data found in the dataset.")
 
         # Calcular la matriz de distancias
         logger.info("Calculating distance matrix...")
         dist_matrix = distance_matrix(df_numeric, df_numeric)
 
-        # Realizar el cálculo de la homología persistente
+        # Calcular homología persistente
         logger.info("Computing persistent homology...")
-        result = ripser(dist_matrix, maxdim=2, distance_matrix=True)
-
-        # Extraer los diagramas de persistencia
+        result = ripser(dist_matrix, maxdim=maxdim, distance_matrix=True)
         diagrams = result['dgms']
 
-        # Visualizar los diagramas de persistencia usando matplotlib
-        logger.info("Plotting persistence diagrams...")
+        # Visualizar diagrama de persistencia
+        logger.info("Plotting persistence diagram...")
+        sns.set(style="whitegrid")
         plt.figure(figsize=(10, 6))
         for dim, diagram in enumerate(diagrams):
-            # Graficar puntos (diagrama de persistencia)
-            plt.scatter(diagram[:, 0], diagram[:, 1], label=f"Dimension {dim}")
+            sns.scatterplot(
+                x=diagram[:, 0],
+                y=diagram[:, 1],
+                label=f"Dimension {dim}",
+                s=100,
+                edgecolor="black"
+            )
+        plt.plot([0, max(diagram[:, 1].max() for diagram in diagrams)],
+                 [0, max(diagram[:, 1].max() for diagram in diagrams)],
+                 color="red", linestyle="--", label="y=x (Diagonal)")
         plt.title("Persistence Diagram")
         plt.xlabel("Birth")
         plt.ylabel("Death")
         plt.legend()
-        plt.grid(True)
-        plt.savefig(output_path / 'persistence_diagram.png')
+        plt.tight_layout()
+        plt.savefig(output_path / "persistence_diagram_sns.png")
         plt.close()
 
-        # Opcional: Graficar la persistencia filtrada
+        # Graficar barras de persistencia (barcode)
         logger.info("Plotting barcode diagram...")
         plt.figure(figsize=(10, 6))
         for dim, diagram in enumerate(diagrams):
-            # Graficar las barras de persistencia
             for birth, death in diagram:
-                plt.plot([birth, death], [dim, dim], lw=5)
+                plt.hlines(
+                    y=dim,
+                    xmin=birth,
+                    xmax=death,
+                    color="blue",
+                    linewidth=2
+                )
         plt.title("Barcode Diagram")
         plt.xlabel("Value")
         plt.ylabel("Dimension")
-        plt.grid(True)
-        plt.savefig(output_path / 'barcode_diagram.png')
+        plt.tight_layout()
+        plt.savefig(output_path / "barcode_diagram_sns.png")
         plt.close()
 
-        # Mostrar el resumen de los diagramas de persistencia
-        logger.info(f"Persistent homology computed. Diagrams saved in {output_path}")
+        logger.success(f"Persistent homology completed successfully. Results saved in {output_path}")
 
     except Exception as e:
         logger.error(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     app()
+
