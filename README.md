@@ -1,10 +1,13 @@
 # topological_data_analysis_MX_League
+# Author: Erick Jesús Ríos González
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
 
-A short description of the project.
+
+This project applies topological data analysis (TDA) techniques to the statistics of Liga MX, the top professional football league in Mexico. The goal is to uncover hidden patterns and insights from player performance data, leveraging persistent homology and principal component analysis (PCA) to understand the underlying structure of the league's performance metrics.
+
+![Liga MX](reports/figures/exploratory_analysis/Goals_histogram.png)
+
+
 
 ## Project Organization
 
@@ -57,5 +60,22 @@ A short description of the project.
     └── plots.py                <- Code to create visualizations
 ```
 
+
+## Setup
+
+### Prerequisites
+
+Before running the project, make sure you have the following tools installed:
+
+- Python 3.9 or higher
+- pip (Python package manager)
+
+### Installing Dependencies
+
+Install the required dependencies by running:
+
+```bash
+pip install -r requirements.txt
+```
 --------
 
