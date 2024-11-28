@@ -15,7 +15,7 @@ app = typer.Typer()
 
 @app.command()
 def main(
-    input_path: Path = PROCESSED_DATA_DIR/"cleaned_liga_mx_data.csv",  # Ruta de entrad
+    input_path: Path = PROCESSED_DATA_DIR/"normalized_liga_mx_data.csv",  # Ruta de entrada
     output_csv: Path = INTERIM_DATA_DIR/"pca_components.csv",   # Salida del PC
     output_dir: Path = FIGURES_DIR/"pca_analysis",        # Carpeta de figura
     n_components: int = 2                                    # Número de componentes a conservar
@@ -54,7 +54,27 @@ def main(
         df_pca.to_csv(output_csv, index=False)
         logger.info(f"PCA results saved to {output_csv}")
 
-        # Gráficos
+        # Cálculo de cargas de variables
+        logger.info("Calculating variable contributions to principal components...")
+        loadings = pd.DataFrame(pca.components_.T, columns=pca_columns, index=numeric_columns)
+
+        # Graficar contribuciones como barras
+        for i in range(n_components):
+            plt.figure(figsize=(10, 6))
+            component_name = f"PC{i+1}"
+            loadings[f"{component_name}_abs"] = loadings[component_name].abs()  # Añadir valor absoluto
+            loadings[f"{component_name}_abs"].plot(kind="bar", color="skyblue", edgecolor="black")
+            plt.title(f"Contributions to {component_name} (Absolute Magnitude)")
+            plt.ylabel("Absolute Contribution")
+            plt.xlabel("Variables")
+            plt.xticks(rotation=45, ha="right")
+            plt.tight_layout()
+            plt.savefig(output_dir / f"contributions_{component_name}_absolute.png", dpi=300)
+            plt.close()
+            logger.info(f"Bar chart for {component_name} (absolute values) saved.")
+
+
+        # Gráficos adicionales
         # 1. Varianza explicada
         explained_variance = pca.explained_variance_ratio_
         plt.figure(figsize=(10, 6))

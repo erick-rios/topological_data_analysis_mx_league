@@ -12,20 +12,19 @@ app = typer.Typer()
 @app.command()
 def main(
     input_path: Path = RAW_DATA_DIR / "liga_mx_stats.csv",
-    output_path: Path = PROCESSED_DATA_DIR / "cleaned_liga_mx_data.csv",
+    output_non_normalized: Path = PROCESSED_DATA_DIR / "non_normalized_liga_mx_data.csv",
+    output_normalized: Path = PROCESSED_DATA_DIR / "normalized_liga_mx_data.csv",
 ):
     """
     Cleans and preprocesses Liga MX data for topological data analysis. 
-    The script:
-    - Removes invalid rows (e.g., repeated header rows within the file).
-    - Extracts only relevant columns for analysis.
-    - Cleans numerical columns (e.g., "Age") and normalizes stats based on minutes played.
-    - Detects and handles outliers.
-    - Saves the cleaned dataset to a new file.
+    Saves two datasets:
+        1. With categorical and numeric data (non-normalized).
+        2. With categorical and numeric data (normalized by minutes played, replacing original columns).
 
     Args:
         input_path (Path): Path to the raw dataset (CSV format).
-        output_path (Path): Path to save the cleaned dataset (CSV format).
+        output_non_normalized (Path): Path to save non-normalized dataset (CSV format).
+        output_normalized (Path): Path to save normalized dataset (CSV format).
     """
     try:
         logger.info(f"Loading dataset from {input_path}...")
@@ -91,20 +90,30 @@ def main(
             df[col] = np.where(df[col] < lower_bound, lower_bound, df[col])
             df[col] = np.where(df[col] > upper_bound, upper_bound, df[col])
 
-        # Normalize numeric stats based on minutes played
-        logger.info("Normalizing stats per minute played...")
+        # Save non-normalized data
+        logger.info(f"Saving non-normalized dataset to {output_non_normalized}...")
+        output_non_normalized.parent.mkdir(parents=True, exist_ok=True)
+        df.to_csv(output_non_normalized, index=False)
+
+        # Create normalized dataset
+        logger.info("Creating normalized dataset...")
+        normalized_df = df.copy()
         stats_columns = ["Goals", "Assists", "Shots_on_Target", "Yellow_Cards", "Red_Cards"]
+
         for col in tqdm(stats_columns, desc="Normalizing stats"):
-            df[f"{col}_per_minute"] = df[col] / df["Minutes"]
+            normalized_col = f"{col}_per_minute"
+            normalized_df[normalized_col] = normalized_df[col] / normalized_df["Minutes"]
 
-        # Remove duplicate entries based on the "Player" column
-        logger.info("Removing duplicate player entries...")
-        df.drop_duplicates(subset=["Player"], inplace=True)
+        # Replace original columns with normalized columns
+        logger.info("Replacing original columns with normalized columns...")
+        for col in stats_columns:
+            normalized_df[col] = normalized_df[f"{col}_per_minute"]
+            normalized_df.drop(columns=[f"{col}_per_minute"], inplace=True)
 
-        # Save the cleaned dataset
-        logger.info(f"Saving cleaned dataset to {output_path}...")
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        df.to_csv(output_path, index=False)
+        # Save normalized data
+        logger.info(f"Saving normalized dataset to {output_normalized}...")
+        normalized_df.to_csv(output_normalized, index=False)
+
         logger.success("Dataset cleaning and normalization complete.")
 
     except Exception as e:

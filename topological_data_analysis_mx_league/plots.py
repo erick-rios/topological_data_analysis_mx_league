@@ -12,7 +12,7 @@ app = typer.Typer()
 
 @app.command()
 def main(
-    input_path: Path = PROCESSED_DATA_DIR / "cleaned_liga_mx_data.csv",
+    input_path: Path = PROCESSED_DATA_DIR / "non_normalized_liga_mx_data.csv",
     output_dir: Path = FIGURES_DIR / "exploratory_analysis",
 ):
     # Crear directorio de salida si no existe

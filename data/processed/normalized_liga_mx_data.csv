@@ -1,0 +1,487 @@
+Player                       ,Country ,Position ,Team        ,Age  ,Matches_Played ,Minutes ,Goals                 ,Assists               ,Shots_on_Target ,Yellow_Cards          ,Red_Cards
+José Abella                  ,mx MEX  ,DF       ,FC Juárez   ,30.0 ,          17.0 , 1014.0 ,0.0                   ,0.0009861932938856016 ,            0.0 ,0.0029585798816568047 ,      0.0
+Carlos Acevedo               ,mx MEX  ,PO       ,Santos      ,28.0 ,          16.0 , 1440.0 ,0.0                   ,0.0                   ,            0.0 ,0.0006944444444444445 ,      0.0
+Daniel Aceves                ,mx MEX  ,DF       ,Pachuca     ,23.0 ,           4.0 ,  228.0 ,0.0                   ,0.0                   ,            0.0 ,0.0043859649122807015 ,      0.0
+Sergio Aguayo                ,us USA  ,DL       ,Pachuca     ,22.0 ,           6.0 ,  162.0 ,0.006172839506172839  ,0.0                   ,            0.0 ,0.006172839506172839  ,      0.0
+Eduardo Águila               ,mx MEX  ,DF       ,Atlético    ,22.0 ,          15.0 , 1261.0 ,0.0                   ,0.0                   ,            0.0 ,0.0007930214115781126 ,      0.0
+Eduardo Aguirre              ,mx MEX  ,DL       ,Atlas       ,26.0 ,          17.0 , 1234.0 ,0.002025931928687196  ,0.0                   ,            0.0 ,0.0016207455429497568 ,      0.0
+Érick Aguirre                ,mx MEX  ,DF       ,Monterrey   ,27.0 ,           7.0 ,  493.0 ,0.0                   ,0.002028397565922921  ,            0.0 ,0.0                   ,      0.0
+Gaddi Aguirre                ,mx MEX  ,DF       ,Atlas       ,28.0 ,          11.0 ,  316.0 ,0.0                   ,0.0                   ,            0.0 ,0.012658227848101266  ,      0.0
+Rodrigo Aguirre              ,uy URU  ,"DL,CC"  ,América     ,30.0 ,          11.0 ,  592.0 ,0.004222972972972973  ,0.0016891891891891893 ,            0.0 ,0.008445945945945946  ,      0.0
+Jorge Agustín Rodríguez      ,ar ARG  ,"CC,DF"  ,Monterrey   ,29.0 ,          12.0 , 1035.0 ,0.0                   ,0.0                   ,            0.0 ,0.002898550724637681  ,      0.0
+Arnaud Ake                   ,ci CIV  ,DL       ,Querétaro   ,26.0 ,           5.0 ,  234.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jesús Alberto Angulo         ,mx MEX  ,DF       ,UANL        ,26.0 ,          16.0 , 1225.0 ,0.0                   ,0.0020408163265306124 ,            0.0 ,0.004081632653061225  ,      0.0
+Gil Alcalá                   ,mx MEX  ,PO       ,UNAM        ,32.0 ,           4.0 ,  360.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jesús Alcantar               ,mx MEX  ,DF       ,Necaxa      ,21.0 ,           6.0 ,  392.0 ,0.0                   ,0.0                   ,            0.0 ,0.002551020408163265  ,      0.0
+Jordy Alcivar                ,ec ECU  ,"CC,DL"  ,León        ,25.0 ,          10.0 ,  395.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+AlessandroTagle              ,mx MEX  ,DF       ,Monterrey   ,19.0 ,           1.0 ,   61.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Luis Alfonso Rodríguez       ,mx MEX  ,DF       ,Pachuca     ,33.0 ,          13.0 ,  755.0 ,0.0                   ,0.0                   ,            0.0 ,0.0013245033112582781 ,      0.0
+Guillermo Allison            ,mx MEX  ,PO       ,Querétaro   ,34.0 ,          17.0 , 1530.0 ,0.0                   ,0.0                   ,            0.0 ,0.00130718954248366   ,      0.0
+Facundo Almada               ,ar ARG  ,DF       ,Mazatlán    ,26.0 ,           9.0 ,  564.0 ,0.0                   ,0.0                   ,            0.0 ,0.0017730496453900709 ,      0.0
+Carlos Alonso Vargas         ,mx MEX  ,"DL,CC"  ,Cruz Azul   ,25.0 ,           3.0 ,   17.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Alfonso Alvarado             ,mx MEX  ,"DL,CC"  ,León        ,24.0 ,          16.0 ,  758.0 ,0.0032981530343007917 ,0.002638522427440633  ,            0.0 ,0.0013192612137203166 ,      0.0
+Roberto Alvarado             ,mx MEX  ,"CC,DL"  ,Guadalajara ,26.0 ,          13.0 , 1031.0 ,0.0024248302618816685 ,0.0024248302618816685 ,            0.0 ,0.0019398642095053346 ,      0.0
+Ventura Alvarado             ,us USA  ,DF       ,Mazatlán    ,32.0 ,           5.0 ,  392.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Antonio Álvarez              ,mx MEX  ,"CC,DF"  ,América     ,20.0 ,           2.0 ,   11.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Daniel Álvarez               ,mx MEX  ,"CC,DL"  ,Puebla      ,30.0 ,          13.0 ,  527.0 ,0.0                   ,0.0                   ,            0.0 ,0.0018975332068311196 ,      0.0
+Efrain Alvarez               ,mx MEX  ,"DL,CC"  ,Tijuana     ,22.0 ,          16.0 , 1220.0 ,0.0020491803278688526 ,0.0020491803278688526 ,            0.0 ,0.0                   ,      0.0
+Gael Álvarez                 ,mx MEX  ,DL       ,Pachuca     ,18.0 ,           5.0 ,  227.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jaime Alvarez                ,mx MEX  ,"DL,CC"  ,Tijuana     ,21.0 ,          11.0 ,  339.0 ,0.0029498525073746312 ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Kevin Álvarez                ,mx MEX  ,DF       ,América     ,25.0 ,           9.0 ,  598.0 ,0.0                   ,0.0                   ,            0.0 ,0.0016722408026755853 ,      0.0
+Luis Amarilla                ,py PAR  ,DL       ,Mazatlán    ,29.0 ,           7.0 ,  477.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Frankie Amaya                ,us USA  ,CC       ,Toluca      ,24.0 ,          12.0 ,  335.0 ,0.0                   ,0.005970149253731343  ,            0.0 ,0.0029850746268656717 ,      0.0
+Fidel Ambríz                 ,mx MEX  ,CC       ,Monterrey   ,21.0 ,          11.0 ,  684.0 ,0.0                   ,0.0                   ,            0.0 ,0.0029239766081871343 ,      0.0
+Fidel Ambríz                 ,mx MEX  ,CC       ,León        ,21.0 ,           5.0 ,  421.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Bruno Amione                 ,ar ARG  ,DF       ,Santos      ,22.0 ,          10.0 ,  855.0 ,0.0                   ,0.0                   ,            0.0 ,0.0023391812865497076 ,      0.0
+Esteban Andrada              ,ar ARG  ,PO       ,Monterrey   ,33.0 ,          16.0 , 1440.0 ,0.0                   ,0.0                   ,            0.0 ,0.003472222222222222  ,      0.0
+Alejandro Andrade            ,mx MEX  ,CC       ,Necaxa      ,23.0 ,           4.0 ,  186.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Luis Ángel Malagón           ,mx MEX  ,PO       ,América     ,27.0 ,          16.0 , 1440.0 ,0.0                   ,0.0                   ,            0.0 ,0.0006944444444444445 ,      0.0
+Brayan Angulo                ,co COL  ,DF       ,Puebla      ,35.0 ,          17.0 , 1432.0 ,0.0                   ,0.0013966480446927375 ,            0.0 ,0.0006983240223463687 ,      0.0
+Jesús Angulo                 ,mx MEX  ,"CC,DL"  ,Toluca      ,27.0 ,          15.0 ,  839.0 ,0.0029797377830750892 ,0.0029797377830750892 ,            0.0 ,0.0                   ,      0.0
+José Antonio Rodríguez       ,mx MEX  ,PO       ,Tijuana     ,32.0 ,          10.0 ,  890.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Uriel Antuna                 ,mx MEX  ,"DL,CC"  ,Cruz Azul   ,27.0 ,           5.0 ,  231.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Uriel Antuna                 ,mx MEX  ,DL       ,UANL        ,27.0 ,          10.0 ,  405.0 ,0.0                   ,0.0024691358024691358 ,            0.0 ,0.0024691358024691358 ,      0.0
+Javier Aquino                ,mx MEX  ,DF       ,UANL        ,34.0 ,          16.0 , 1366.0 ,0.0                   ,0.0                   ,            0.0 ,0.0029282576866764276 ,      0.0
+Pedro Aquino                 ,pe PER  ,CC       ,Santos      ,29.0 ,           7.0 ,  396.0 ,0.0                   ,0.0                   ,            0.0 ,0.010101010101010102  ,      0.0
+Diego Araujo                 ,mx MEX  ,CC       ,Querétaro   ,21.0 ,           2.0 ,  108.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Maximiliano Araújo           ,uy URU  ,DL       ,Toluca      ,24.0 ,           2.0 ,  103.0 ,0.009708737864077669  ,0.0                   ,            0.0 ,0.009708737864077669  ,      0.0
+Néstor Araujo                ,mx MEX  ,DF       ,América     ,33.0 ,          13.0 , 1029.0 ,0.0                   ,0.001943634596695821  ,            0.0 ,0.0009718172983479105 ,      0.0
+Fernando Arce Jr.            ,us USA  ,CC       ,Necaxa      ,28.0 ,          15.0 , 1036.0 ,0.0019305019305019305 ,0.0                   ,            0.0 ,0.004826254826254826  ,      0.0
+Ramiro Árciga                ,mx MEX  ,"CC,DL"  ,Mazatlán    ,20.0 ,          17.0 ,  953.0 ,0.0                   ,0.0                   ,            0.0 ,0.002098635886673662  ,      0.0
+Gerardo Arteaga              ,mx MEX  ,DF       ,Monterrey   ,26.0 ,          13.0 , 1064.0 ,0.0                   ,0.0                   ,            0.0 ,0.0018796992481203006 ,      0.0
+Víctor Arteaga               ,mx MEX  ,CC       ,Toluca      ,20.0 ,          15.0 ,  513.0 ,0.0                   ,0.001949317738791423  ,            0.0 ,0.005847953216374269  ,      0.0
+Ali Ávila                    ,mx MEX  ,DL       ,UNAM        ,21.0 ,           7.0 ,  122.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Ettson Ayon                  ,mx MEX  ,DL       ,León        ,23.0 ,           7.0 ,  200.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Tomás Badaloni               ,ar ARG  ,DL       ,Necaxa      ,24.0 ,          13.0 ,  461.0 ,0.004338394793926247  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Claudio Baeza                ,cl CHI  ,"CC,DF"  ,Toluca      ,30.0 ,          16.0 , 1016.0 ,0.0                   ,0.000984251968503937  ,            0.0 ,0.003937007874015748  ,      0.0
+Kevin Balanta                ,co COL  ,DF       ,Tijuana     ,27.0 ,           9.0 ,  591.0 ,0.0                   ,0.0                   ,            0.0 ,0.001692047377326565  ,      0.0
+Fidel Barajas                ,mx MEX  ,"CC,DL"  ,Guadalajara ,18.0 ,           5.0 ,   87.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Víctor Barajas               ,mx MEX  ,DF       ,León        ,21.0 ,           1.0 ,    2.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Diego Barbosa                ,mx MEX  ,DF       ,Tijuana     ,28.0 ,           6.0 ,  239.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jaine Barreiro               ,co COL  ,DF       ,León        ,30.0 ,          17.0 , 1507.0 ,0.0006635700066357001 ,0.0                   ,            0.0 ,0.0019907100199071004 ,      0.0
+Pablo Barrera                ,mx MEX  ,"CC,DL"  ,Querétaro   ,37.0 ,          17.0 , 1287.0 ,0.000777000777000777  ,0.0                   ,            0.0 ,0.000777000777000777  ,      0.0
+Sergio Barreto               ,ar ARG  ,DF       ,Pachuca     ,25.0 ,          15.0 , 1307.0 ,0.0                   ,0.0007651109410864575 ,            0.0 ,0.0038255547054322878 ,      0.0
+Abraham Bass                 ,mx MEX  ,CC       ,Atlas       ,23.0 ,           1.0 ,   10.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Borja Bastón                 ,es ESP  ,DL       ,Pachuca     ,32.0 ,           7.0 ,  352.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Alán Bautista                ,mx MEX  ,"CC,DL"  ,Pachuca     ,22.0 ,          10.0 ,  401.0 ,0.0024937655860349127 ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Paul Bellón                  ,mx MEX  ,DF       ,León        ,27.0 ,          17.0 , 1530.0 ,0.0                   ,0.0                   ,            0.0 ,0.00261437908496732   ,      0.0
+Fernando Beltrán             ,mx MEX  ,"CC,DL"  ,Guadalajara ,26.0 ,          17.0 , 1256.0 ,0.0007961783439490446 ,0.0007961783439490446 ,            0.0 ,0.0023885350318471337 ,      0.0
+Nicolás Benedetti            ,co COL  ,CC       ,Mazatlán    ,27.0 ,           6.0 ,  243.0 ,0.0                   ,0.0                   ,            0.0 ,0.00823045267489712   ,      0.0
+Darío Benedetto              ,ar ARG  ,DL       ,Querétaro   ,34.0 ,           8.0 ,  427.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Pablo Bennevendo Peña        ,mx MEX  ,DF       ,UNAM        ,24.0 ,          17.0 , 1358.0 ,0.0                   ,0.0                   ,            0.0 ,0.0007363770250368188 ,      0.0
+Jorge Berlanga               ,mx MEX  ,DF       ,Pachuca     ,21.0 ,           7.0 ,  529.0 ,0.0                   ,0.0                   ,            0.0 ,0.007561436672967864  ,      0.0
+Germán Berterame             ,mx MEX  ,DL       ,Monterrey   ,26.0 ,          15.0 , 1237.0 ,0.002021018593371059  ,0.0                   ,            0.0 ,0.0016168148746968471 ,      0.0
+Unai Bilbao                  ,es ESP  ,DF       ,Tijuana     ,30.0 ,          15.0 , 1096.0 ,0.0                   ,0.0009124087591240876 ,            0.0 ,0.0                   ,      0.0
+Alfonso Blanco Antúnez       ,mx MEX  ,PO       ,León        ,37.0 ,          17.0 , 1530.0 ,0.0                   ,0.0                   ,            0.0 ,0.00130718954248366   ,      0.0
+Domingo Blanco               ,ar ARG  ,"DL,CC"  ,Tijuana     ,29.0 ,          14.0 ,  887.0 ,0.002818489289740699  ,0.0                   ,            0.0 ,0.002254791431792559  ,      0.0
+Franck Boli                  ,ci CIV  ,DL       ,Atlético    ,30.0 ,          14.0 ,  813.0 ,0.003075030750307503  ,0.0                   ,            0.0 ,0.0012300123001230013 ,      0.0
+Léo Bonatini                 ,br BRA  ,DL       ,Atlético    ,30.0 ,          11.0 ,  462.0 ,0.004329004329004329  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Cristian Borja               ,co COL  ,DF       ,América     ,31.0 ,          12.0 ,  721.0 ,0.0                   ,0.0013869625520110957 ,            0.0 ,0.0                   ,      0.0
+Antonio Briseño              ,mx MEX  ,DF       ,Guadalajara ,30.0 ,           7.0 ,  541.0 ,0.0                   ,0.0018484288354898336 ,            0.0 ,0.0036968576709796672 ,      0.0
+Isaác Brizuela               ,mx MEX  ,"CC,DL"  ,Guadalajara ,34.0 ,           3.0 ,   48.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Juan Brunetta                ,ar ARG  ,CC       ,UANL        ,27.0 ,          15.0 ,  809.0 ,0.0030902348578491965 ,0.002472187886279357  ,            0.0 ,0.0012360939431396785 ,      0.0
+Gustavo Cabral               ,ar ARG  ,DF       ,Pachuca     ,39.0 ,          11.0 ,  894.0 ,0.0                   ,0.0                   ,            0.0 ,0.003355704697986577  ,      0.0
+Luciano Cabral               ,cl CHI  ,"DL,CC"  ,León        ,29.0 ,          15.0 , 1071.0 ,0.0009337068160597573 ,0.002334267040149393  ,            0.0 ,0.0028011204481792717 ,      0.0
+Sebastián Cáceres            ,uy URU  ,DF       ,América     ,25.0 ,           3.0 ,  142.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jhonder Cádiz                ,ve VEN  ,DL       ,León        ,29.0 ,          15.0 , 1021.0 ,0.002448579823702253  ,0.0009794319294809011 ,            0.0 ,0.0039177277179236044 ,      0.0
+José Caicedo                 ,co COL  ,CC       ,UNAM        ,22.0 ,          17.0 , 1364.0 ,0.0007331378299120235 ,0.0007331378299120235 ,            0.0 ,0.002932551319648094  ,      0.0
+Cristian Calderón            ,mx MEX  ,DF       ,América     ,27.0 ,          14.0 ,  874.0 ,0.0                   ,0.0                   ,            0.0 ,0.003432494279176201  ,      0.0
+Francisco Calvo              ,cr CRC  ,DF       ,FC Juárez   ,32.0 ,           3.0 ,  270.0 ,0.0                   ,0.0                   ,            0.0 ,0.003703703703703704  ,      0.0
+Raúl Camacho                 ,mx MEX  ,"DL,DF"  ,Mazatlán    ,22.0 ,           9.0 ,  307.0 ,0.006514657980456026  ,0.0                   ,            0.0 ,0.006514657980456026  ,      0.0
+Diber Cambindo               ,co COL  ,DL       ,Necaxa      ,28.0 ,          16.0 , 1235.0 ,0.0020242914979757085 ,0.0                   ,            0.0 ,0.0016194331983805667 ,      0.0
+Diego Campillo               ,mx MEX  ,CC       ,FC Juárez   ,23.0 ,          17.0 , 1251.0 ,0.0007993605115907274 ,0.0                   ,            0.0 ,0.0031974420463629096 ,      0.0
+Sergio Canales               ,es ESP  ,"CC,DL"  ,Monterrey   ,33.0 ,          17.0 , 1504.0 ,0.0016622340425531915 ,0.0013297872340425532 ,            0.0 ,0.0019946808510638296 ,      0.0
+Camilo Cándido               ,uy URU  ,"DF,DL"  ,Cruz Azul   ,29.0 ,          11.0 ,  229.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Luis Cárdenas                ,mx MEX  ,PO       ,Monterrey   ,31.0 ,           1.0 ,   90.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Rafael Carioca               ,br BRA  ,CC       ,UANL        ,35.0 ,          13.0 , 1027.0 ,0.0                   ,0.0                   ,            0.0 ,0.0009737098344693282 ,      0.0
+Héctor Carranza              ,mx MEX  ,CC       ,Santos      ,20.0 ,           1.0 ,    7.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jordan Carrillo              ,mx MEX  ,"CC,DL"  ,Santos      ,22.0 ,          13.0 ,  851.0 ,0.0                   ,0.0                   ,            0.0 ,0.0011750881316098707 ,      0.0
+Stephano Carrillo            ,mx MEX  ,"DL,DF"  ,Santos      ,18.0 ,           8.0 ,  183.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Guilherme Carvalho           ,br BRA  ,CC       ,FC Juárez   ,25.0 ,          12.0 ,  967.0 ,0.001034126163391934  ,0.002068252326783868  ,            0.0 ,0.002068252326783868  ,      0.0
+Kevin Castañeda              ,mx MEX  ,"CC,DL"  ,Tijuana     ,25.0 ,          14.0 ,  896.0 ,0.0027901785714285715 ,0.0                   ,            0.0 ,0.002232142857142857  ,      0.0
+Klever Castillo              ,mx MEX  ,DL       ,Toluca      ,19.0 ,           3.0 ,   70.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Moises Castillo              ,co COL  ,DF       ,FC Juárez   ,23.0 ,          10.0 ,  573.0 ,0.0                   ,0.0                   ,            0.0 ,0.0034904013961605585 ,      0.0
+José Castillo Pérez          ,mx MEX  ,DF       ,Guadalajara ,22.0 ,          16.0 , 1385.0 ,0.0                   ,0.0007220216606498195 ,            0.0 ,0.0                   ,      0.0
+Raúl Castillo                ,mx MEX  ,"CC,DL"  ,Puebla      ,22.0 ,          15.0 ,  785.0 ,0.0012738853503184713 ,0.0                   ,            0.0 ,0.003821656050955414  ,      0.0
+Manuel Castro                ,uy URU  ,"CC,DL"  ,FC Juárez   ,29.0 ,           1.0 ,   90.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Lucas Cavallini              ,ca CAN  ,DL       ,Puebla      ,31.0 ,           4.0 ,  328.0 ,0.007621951219512195  ,0.0                   ,            0.0 ,0.003048780487804878  ,      0.0
+Alan Cervantes               ,mx MEX  ,CC       ,Santos      ,26.0 ,           1.0 ,   90.0 ,0.0                   ,0.0                   ,            0.0 ,0.011111111111111112  ,      0.0
+Alan Cervantes               ,mx MEX  ,CC       ,América     ,26.0 ,          12.0 ,  660.0 ,0.0015151515151515152 ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Luís Cervantes               ,mx MEX  ,DF       ,León        ,23.0 ,           1.0 ,   33.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Mateo Chávez                 ,mx MEX  ,DF       ,Guadalajara ,20.0 ,          12.0 ,  691.0 ,0.0                   ,0.002894356005788712  ,            0.0 ,0.001447178002894356  ,      0.0
+Ricardo Chávez Soto          ,mx MEX  ,DF       ,Atlético    ,30.0 ,          17.0 , 1229.0 ,0.0008136696501220504 ,0.0016273393002441008 ,            0.0 ,0.0024410089503661514 ,      0.0
+Ronaldo Cisneros             ,mx MEX  ,"DL,DF"  ,Querétaro   ,27.0 ,           9.0 ,  318.0 ,0.006289308176100629  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Josué Colmán                 ,py PAR  ,"CC,DF"  ,Mazatlán    ,26.0 ,          15.0 ,  552.0 ,0.0036231884057971015 ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Bryan Colula                 ,mx MEX  ,"DF,CC"  ,Mazatlán    ,28.0 ,          16.0 , 1314.0 ,0.0                   ,0.0                   ,            0.0 ,0.0030441400304414    ,      0.0
+Francisco Contreras          ,mx MEX  ,"DF,CC"  ,Tijuana     ,25.0 ,          10.0 ,  482.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jesús Corona                 ,mx MEX  ,"CC,DL"  ,Monterrey   ,31.0 ,          14.0 ,  586.0 ,0.0017064846416382253 ,0.0017064846416382253 ,            0.0 ,0.0017064846416382253 ,      0.0
+Joe Corona                   ,us USA  ,CC       ,Tijuana     ,34.0 ,          10.0 ,  554.0 ,0.0018050541516245488 ,0.0018050541516245488 ,            0.0 ,0.0036101083032490976 ,      0.0
+José Corona                  ,mx MEX  ,PO       ,Tijuana     ,39.5 ,           8.0 ,  640.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Rogelio Cortéz Pineda        ,mx MEX  ,"DL,CC"  ,Necaxa      ,20.0 ,           7.0 ,  171.0 ,0.005847953216374269  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jordi Cortizo                ,mx MEX  ,"CC,DL"  ,Monterrey   ,28.0 ,          13.0 ,  583.0 ,0.003430531732418525  ,0.0017152658662092624 ,            0.0 ,0.003430531732418525  ,      0.0
+Rodolfo Cota                 ,mx MEX  ,PO       ,América     ,37.0 ,           1.0 ,   90.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Cade Cowell                  ,us USA  ,"CC,DL"  ,Guadalajara ,21.0 ,          12.0 ,  831.0 ,0.0030084235860409147 ,0.0024067388688327317 ,            0.0 ,0.0                   ,      0.0
+Aldo Cruz                    ,mx MEX  ,DF       ,Atlético    ,27.0 ,          14.0 , 1147.0 ,0.0                   ,0.0                   ,            0.0 ,0.0008718395815170009 ,      0.0
+Jürgen Damm                  ,mx MEX  ,DF       ,Atlético    ,32.0 ,           1.0 ,   25.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+José David Ramírez           ,mx MEX  ,CC       ,León        ,28.0 ,          11.0 ,  607.0 ,0.0                   ,0.0016474464579901153 ,            0.0 ,0.0016474464579901153 ,      0.0
+Víctor Dávila                ,cl CHI  ,"DL,CC"  ,América     ,27.0 ,           6.0 ,  250.0 ,0.004                 ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Diego De Buen                ,mx MEX  ,CC       ,Puebla      ,33.0 ,          17.0 , 1427.0 ,0.000700770847932726  ,0.0                   ,            0.0 ,0.001401541695865452  ,      0.0
+Sergio De los Ríos           ,mx MEX  ,"CC,DF"  ,Pachuca     ,21.0 ,           5.0 ,  108.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Gustavo Del Prete            ,ar ARG  ,"CC,DL"  ,Mazatlán    ,28.0 ,           3.0 ,  230.0 ,0.004347826086956522  ,0.0                   ,            0.0 ,0.004347826086956522  ,      0.0
+Everardo Del Villar          ,mx MEX  ,DF       ,Toluca      ,19.0 ,           3.0 ,  213.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Arturo Delgado               ,mx MEX  ,PO       ,FC Juárez   ,22.0 ,           2.0 ,  180.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Nelson Deossa                ,co COL  ,CC       ,Pachuca     ,24.0 ,          16.0 , 1212.0 ,0.0016501650165016502 ,0.0016501650165016502 ,            0.0 ,0.004125412541254125  ,      0.0
+Benny Díaz                   ,mx MEX  ,PO       ,FC Juárez   ,25.0 ,          11.0 ,  990.0 ,0.0                   ,0.0                   ,            0.0 ,0.0030303030303030303 ,      0.0
+Nicolás Díaz Huincales       ,cl CHI  ,DF       ,Tijuana     ,25.0 ,           9.0 ,  679.0 ,0.0                   ,0.0                   ,            0.0 ,0.0029455081001472753 ,      0.0
+Jair Díaz                    ,mx MEX  ,DF       ,Mazatlán    ,26.0 ,          12.0 ,  931.0 ,0.0                   ,0.0                   ,            0.0 ,0.004296455424274973  ,      0.0
+Javairô Dilrosun             ,nl NED  ,"DL,CC"  ,América     ,26.0 ,          11.0 ,  612.0 ,0.0016339869281045752 ,0.0016339869281045752 ,            0.0 ,0.004901960784313725  ,      0.0
+Willer Ditta                 ,co COL  ,DF       ,Cruz Azul   ,27.0 ,          17.0 , 1530.0 ,0.0                   ,0.0                   ,            0.0 ,0.00196078431372549   ,      0.0
+Alexei Dominguez             ,mx MEX  ,DL       ,Pachuca     ,19.0 ,           3.0 ,   69.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Idekel Domínguez             ,mx MEX  ,DF       ,Atlas       ,24.0 ,           2.0 ,  143.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Joel Domínguez               ,mx MEX  ,CC       ,Monterrey   ,19.0 ,           1.0 ,    4.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jose Domínguez               ,py PAR  ,DF       ,Querétaro   ,28.0 ,          10.0 ,  846.0 ,0.0                   ,0.0                   ,            0.0 ,0.00591016548463357   ,      0.0
+Juan Domínguez               ,mx MEX  ,"DL,CC"  ,Toluca      ,26.0 ,          17.0 ,  764.0 ,0.0                   ,0.0013089005235602095 ,            0.0 ,0.0013089005235602095 ,      0.0
+Julio Domínguez              ,mx MEX  ,DF       ,Atlético    ,37.0 ,          14.0 , 1193.0 ,0.0                   ,0.0008382229673093043 ,            0.0 ,0.002514668901927913  ,      0.0
+Misael Domínguez             ,mx MEX  ,"DL,CC"  ,Querétaro   ,25.0 ,           2.0 ,   78.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Dória                        ,br BRA  ,DF       ,Atlas       ,30.0 ,          14.0 , 1180.0 ,0.0                   ,0.0                   ,            0.0 ,0.003389830508474576  ,      0.0
+Jonathan dos Santos          ,mx MEX  ,CC       ,América     ,34.0 ,          14.0 ,  751.0 ,0.0                   ,0.0                   ,            0.0 ,0.0039946737683089215 ,      0.0
+Rodrigo Dourado              ,br BRA  ,"CC,DF"  ,Atlético    ,30.0 ,          16.0 , 1415.0 ,0.0007067137809187279 ,0.0                   ,            0.0 ,0.0035335689045936395 ,      0.0
+Anderson Duarte              ,uy URU  ,"CC,DL"  ,Toluca      ,20.0 ,           7.0 ,  136.0 ,0.007352941176470588  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Rubén Duarte                 ,es ESP  ,DF       ,UNAM        ,29.0 ,          14.0 , 1241.0 ,0.0                   ,0.0                   ,            0.0 ,0.0024174053182917004 ,      0.0
+Rafael Durán                 ,mx MEX  ,"CC,DL"  ,Puebla      ,27.0 ,           8.0 ,  151.0 ,0.006622516556291391  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Emmanuel Echeverría          ,mx MEX  ,DF       ,Santos      ,21.0 ,          14.0 , 1064.0 ,0.0009398496240601503 ,0.0                   ,            0.0 ,0.002819548872180451  ,      0.0
+Edson                        ,br BRA  ,DF       ,FC Juárez   ,26.0 ,          13.0 ,  523.0 ,0.0                   ,0.0                   ,            0.0 ,0.0057361376673040155 ,      0.0
+José Eduardo Castillo        ,mx MEX  ,DF       ,Pachuca     ,20.0 ,           1.0 ,   90.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Javier Eduardo López         ,mx MEX  ,"CC,DL"  ,Pachuca     ,30.0 ,           3.0 ,   87.0 ,0.011494252873563218  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jorge Eduardo Sánchez        ,mx MEX  ,"DF,DL"  ,Cruz Azul   ,26.0 ,          15.0 , 1242.0 ,0.0008051529790660225 ,0.0008051529790660225 ,            0.0 ,0.001610305958132045  ,      0.0
+Francisco Eduardo Venegas    ,mx MEX  ,DF       ,Querétaro   ,26.0 ,          12.0 ,  821.0 ,0.0                   ,0.0                   ,            0.0 ,0.0036540803897685747 ,      0.0
+Luis Enrique Quiñones        ,co COL  ,"DL,CC"  ,Puebla      ,33.0 ,          11.0 ,  878.0 ,0.0028473804100227792 ,0.0011389521640091116 ,            0.0 ,0.0056947608200455585 ,      0.0
+Luis Enrique Quiñones        ,co COL  ,"DL,CC"  ,UANL        ,33.0 ,           4.0 ,  171.0 ,0.0                   ,0.005847953216374269  ,            0.0 ,0.0                   ,      0.0
+Robert Ergas                 ,uy URU  ,DF       ,UNAM        ,26.0 ,          14.0 ,  972.0 ,0.0                   ,0.00257201646090535   ,            0.0 ,0.00205761316872428   ,      0.0
+Carlos Ernesto Cisneros      ,mx MEX  ,"DL,CC"  ,Guadalajara ,31.0 ,           9.0 ,  321.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Kevin Escamilla              ,mx MEX  ,"CC,DF"  ,Querétaro   ,30.0 ,          13.0 ,  886.0 ,0.0                   ,0.001128668171557562  ,            0.0 ,0.003386004514672686  ,      0.0
+Alonso Escoboza              ,mx MEX  ,"DF,CC"  ,Mazatlán    ,31.0 ,          13.0 ,  861.0 ,0.0                   ,0.0                   ,            0.0 ,0.0011614401858304297 ,      0.0
+Dagoberto Espinoza           ,mx MEX  ,"DF,CC"  ,América     ,20.0 ,           9.0 ,  501.0 ,0.0                   ,0.0                   ,            0.0 ,0.001996007984031936  ,      0.0
+Luis Espinoza                ,mx MEX  ,DL       ,Santos      ,20.0 ,           3.0 ,   36.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Ángel Estrada                ,mx MEX  ,CC       ,León        ,21.0 ,          10.0 ,  715.0 ,0.0013986013986013986 ,0.0                   ,            0.0 ,0.0013986013986013986 ,      0.0
+Oscar Estupiñan              ,co COL  ,DL       ,FC Juárez   ,27.0 ,          12.0 , 1011.0 ,0.002472799208704253  ,0.0                   ,            0.0 ,0.0009891196834817012 ,      0.0
+José Eulogio                 ,mx MEX  ,PO       ,Pachuca     ,20.0 ,           2.0 ,  180.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Franco Fagúndez              ,uy URU  ,"CC,DL"  ,Santos      ,24.0 ,          13.0 ,  716.0 ,0.002793296089385475  ,0.0013966480446927375 ,            0.0 ,0.006983240223463687  ,      0.0
+Lorenzo Faravelli            ,ar ARG  ,"CC,DL"  ,Cruz Azul   ,31.0 ,          14.0 , 1028.0 ,0.0024319066147859923 ,0.0009727626459143969 ,            0.0 ,0.0029182879377431907 ,      0.0
+Carlos Felipe Rodríguez      ,mx MEX  ,PO       ,UANL        ,35.0 ,           3.0 ,  270.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Gabriel Fernández            ,uy URU  ,"DL,CC"  ,Cruz Azul   ,30.0 ,           2.0 ,   44.0 ,0.022727272727272728  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Rafael Fernández             ,mx MEX  ,DF       ,Tijuana     ,24.0 ,          15.0 , 1046.0 ,0.0                   ,0.0                   ,            0.0 ,0.0028680688336520078 ,      0.0
+Gustavo Ferrareis            ,br BRA  ,DF       ,Puebla      ,28.0 ,          16.0 , 1414.0 ,0.0007072135785007072 ,0.0                   ,            0.0 ,0.003536067892503536  ,      0.0
+Álvaro Fidalgo               ,es ESP  ,CC       ,América     ,27.0 ,          15.0 , 1110.0 ,0.0009009009009009009 ,0.0022522522522522522 ,            0.0 ,0.0                   ,      0.0
+Iker Fimbres                 ,mx MEX  ,CC       ,Monterrey   ,19.0 ,          12.0 ,  545.0 ,0.003669724770642202  ,0.0                   ,            0.0 ,0.005504587155963303  ,      0.0
+Leonardo Flores              ,mx MEX  ,"DL,CC"  ,Atlas       ,21.0 ,           7.0 ,  110.0 ,0.0                   ,0.0                   ,            0.0 ,0.00909090909090909   ,      0.0
+Marcelo Flores               ,mx MEX  ,"DL,CC"  ,UANL        ,21.0 ,          13.0 ,  383.0 ,0.005221932114882507  ,0.0                   ,            0.0 ,0.0026109660574412533 ,      0.0
+Alexis Francisco Peña        ,mx MEX  ,DF       ,Necaxa      ,28.0 ,           4.0 ,  272.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Ramiro Franco                ,mx MEX  ,DF       ,Mazatlán    ,21.0 ,           8.0 ,  365.0 ,0.0                   ,0.0                   ,            0.0 ,0.005479452054794521  ,      0.0
+Adonis Frías                 ,ar ARG  ,"CC,DF"  ,León        ,26.0 ,           8.0 ,  419.0 ,0.0                   ,0.0                   ,            0.0 ,0.00477326968973747   ,      0.0
+Raymundo Fulgencio           ,mx MEX  ,"DL,CC"  ,Atlas       ,24.0 ,          17.0 , 1053.0 ,0.000949667616334283  ,0.0023741690408357074 ,            0.0 ,0.001899335232668566  ,      0.0
+Rogelio Funes Mori           ,mx MEX  ,DL       ,UNAM        ,33.0 ,          15.0 ,  608.0 ,0.001644736842105263  ,0.001644736842105263  ,            0.0 ,0.003289473684210526  ,      0.0
+Benjamín Galdames            ,mx MEX  ,"CC,DL"  ,Atlético    ,23.0 ,          12.0 ,  239.0 ,0.0                   ,0.0                   ,            0.0 ,0.0041841004184100415 ,      0.0
+Jesús Gallardo               ,mx MEX  ,"DF,CC"  ,Toluca      ,30.0 ,          16.0 , 1421.0 ,0.0017593244194229415 ,0.0017593244194229415 ,            0.0 ,0.00211118930330753   ,      0.0
+Bryan Gamboa                 ,mx MEX  ,CC       ,Cruz Azul   ,22.0 ,           1.0 ,   11.0 ,0.09090909090909091   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Aitor García                 ,es ESP  ,"DL,CC"  ,FC Juárez   ,30.0 ,          13.0 ,  422.0 ,0.002369668246445498  ,0.002369668246445498  ,            0.0 ,0.0                   ,      0.0
+Amaury García                ,mx MEX  ,"CC,DL"  ,Cruz Azul   ,22.0 ,           3.0 ,   14.0 ,0.0                   ,0.0                   ,            0.0 ,0.07142857142857142   ,      0.0
+Brian García                 ,mx MEX  ,DF       ,Toluca      ,27.0 ,          16.0 , 1174.0 ,0.0008517887563884157 ,0.0008517887563884157 ,            0.0 ,0.0017035775127768314 ,      0.0
+Denzell García               ,mx MEX  ,CC       ,FC Juárez   ,21.0 ,           3.0 ,   13.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Gael García                  ,mx MEX  ,DL       ,Guadalajara ,16.0 ,           1.0 ,    1.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jorge García                 ,mx MEX  ,CC       ,Cruz Azul   ,22.0 ,           3.0 ,   77.0 ,0.0                   ,0.0                   ,            0.0 ,0.012987012987012988  ,      0.0
+José García                  ,mx MEX  ,DF       ,FC Juárez   ,28.0 ,           8.0 ,  606.0 ,0.0033003300330033004 ,0.0                   ,            0.0 ,0.0016501650165016502 ,      0.0
+Luan Garcia                  ,br BRA  ,DF       ,Toluca      ,31.0 ,          16.0 , 1395.0 ,0.0007168458781362007 ,0.0                   ,            0.0 ,0.0014336917562724014 ,      0.0
+Luis García                  ,mx MEX  ,"CC,DL"  ,Puebla      ,31.0 ,           7.0 ,  117.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Mateo García                 ,ar ARG  ,"CC,DL"  ,Atlas       ,28.0 ,          11.0 ,  343.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Bryan Garnica                ,mx MEX  ,"DL,DF"  ,Necaxa      ,28.0 ,          15.0 , 1002.0 ,0.0                   ,0.0                   ,            0.0 ,0.000998003992015968  ,      0.0
+César Garza                  ,mx MEX  ,CC       ,Monterrey   ,19.0 ,           2.0 ,   17.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jesús Garza                  ,mx MEX  ,DF       ,UANL        ,24.0 ,           8.0 ,  277.0 ,0.0                   ,0.0036101083032490976 ,            0.0 ,0.007220216606498195  ,      0.0
+Giorgos Giakoumakis          ,gr GRE  ,DL       ,Cruz Azul   ,29.0 ,          13.0 ,  661.0 ,0.0037821482602118004 ,0.0037821482602118004 ,            0.0 ,0.0045385779122541605 ,      0.0
+André-Pierre Gignac          ,fr FRA  ,DL       ,UANL        ,38.0 ,          16.0 , 1024.0 ,0.00244140625         ,0.0009765625          ,            0.0 ,0.0009765625          ,      0.0
+Faber Gil                    ,co COL  ,"DL,CC"  ,Pachuca     ,29.0 ,           9.0 ,  283.0 ,0.0                   ,0.0                   ,            0.0 ,0.007067137809187279  ,      0.0
+Alejandro Gómez              ,mx MEX  ,"DF,CC"  ,Tijuana     ,22.0 ,          11.0 ,  839.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Diego Gómez                  ,mx MEX  ,CC       ,Necaxa      ,21.0 ,          11.0 ,  398.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Emiliano Gómez               ,uy URU  ,"DL,CC"  ,Puebla      ,23.0 ,          10.0 ,  792.0 ,0.0031565656565656565 ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Luis Gómez                   ,mx MEX  ,"DF,DL"  ,Santos      ,17.0 ,           3.0 ,   25.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jaime Gómez Valencia         ,mx MEX  ,"CC,DF"  ,Querétaro   ,31.0 ,          10.0 ,  227.0 ,0.0                   ,0.0                   ,            0.0 ,0.004405286343612335  ,      0.0
+Alfonso González             ,mx MEX  ,"CC,DL"  ,Pachuca     ,30.0 ,          10.0 ,  364.0 ,0.005494505494505495  ,0.0                   ,            0.0 ,0.0027472527472527475 ,      0.0
+Armando González             ,mx MEX  ,DL       ,Guadalajara ,21.0 ,          11.0 ,  510.0 ,0.004901960784313725  ,0.00196078431372549   ,            0.0 ,0.00196078431372549   ,      0.0
+Bryan González               ,mx MEX  ,DF       ,Pachuca     ,21.0 ,          16.0 , 1372.0 ,0.0                   ,0.0007288629737609329 ,            0.0 ,0.0014577259475218659 ,      0.0
+Pablo González Díaz          ,mx MEX  ,CC       ,Puebla      ,32.0 ,          16.0 , 1195.0 ,0.0                   ,0.0                   ,            0.0 ,0.0016736401673640166 ,      0.0
+Hugo González Durán          ,mx MEX  ,PO       ,Mazatlán    ,34.0 ,          17.0 , 1485.0 ,0.0                   ,0.0                   ,            0.0 ,0.0013468013468013469 ,      0.0
+Carlos González Espínola     ,py PAR  ,DL       ,Tijuana     ,31.0 ,          11.0 ,  580.0 ,0.0034482758620689655 ,0.0                   ,            0.0 ,0.0034482758620689655 ,      0.0
+Jair González                ,mx MEX  ,"CC,DL"  ,Puebla      ,22.0 ,           9.0 ,  170.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jonathan González            ,mx MEX  ,CC       ,FC Juárez   ,25.0 ,          11.0 ,  501.0 ,0.0                   ,0.001996007984031936  ,            0.0 ,0.001996007984031936  ,      0.0
+Owen González                ,mx MEX  ,DL       ,Pachuca     ,21.0 ,          16.0 ,  895.0 ,0.0011173184357541898 ,0.0022346368715083797 ,            0.0 ,0.0022346368715083797 ,      0.0
+Fernando Gorriarán           ,uy URU  ,CC       ,UANL        ,30.0 ,          17.0 , 1433.0 ,0.0013956734124214933 ,0.0                   ,            0.0 ,0.0013956734124214933 ,      0.0
+Ismael Govea                 ,mx MEX  ,DF       ,Santos      ,27.0 ,          10.0 ,  610.0 ,0.0                   ,0.0                   ,            0.0 ,0.001639344262295082  ,      0.0
+Omar Govea                   ,mx MEX  ,CC       ,Guadalajara ,28.0 ,          10.0 ,  335.0 ,0.0                   ,0.0                   ,            0.0 ,0.0029850746268656717 ,      0.0
+Andrés Guardado              ,mx MEX  ,CC       ,León        ,38.0 ,          13.0 ,  842.0 ,0.0011876484560570072 ,0.0011876484560570072 ,            0.0 ,0.0035629453681710215 ,      0.0
+Javier Güemez                ,mx MEX  ,CC       ,Atlético    ,33.0 ,          16.0 ,  901.0 ,0.0011098779134295228 ,0.002774694783573807  ,            0.0 ,0.0011098779134295228 ,      0.0
+Edgar Guerra                 ,co COL  ,"DF,CC"  ,León        ,23.0 ,          15.0 ,  855.0 ,0.0                   ,0.0011695906432748538 ,            0.0 ,0.0011695906432748538 ,      0.0
+Carlos Guillen               ,mx MEX  ,"CC,DL"  ,Atlas       ,20.0 ,           8.0 ,  300.0 ,0.0                   ,0.0                   ,            0.0 ,0.006666666666666667  ,      0.0
+Daniel Guillén               ,mx MEX  ,DF       ,Atlético    ,23.0 ,           6.0 ,  418.0 ,0.0023923444976076554 ,0.0                   ,            0.0 ,0.004784688995215311  ,      0.0
+Emanuel Gularte              ,uy URU  ,DF       ,Puebla      ,27.0 ,          16.0 , 1418.0 ,0.0007052186177715092 ,0.0                   ,            0.0 ,0.0007052186177715092 ,      0.0
+Alexis Gutiérrez             ,mx MEX  ,CC       ,Cruz Azul   ,24.0 ,          17.0 , 1138.0 ,0.0021968365553602814 ,0.0021968365553602814 ,            0.0 ,0.0                   ,      0.0
+Luis Gutiérrez Castellanos   ,mx MEX  ,CC       ,Santos      ,22.0 ,           8.0 ,  538.0 ,0.0                   ,0.0018587360594795538 ,            0.0 ,0.0037174721189591076 ,      0.0
+Edson Gutiérrez              ,mx MEX  ,DF       ,Monterrey   ,28.0 ,           8.0 ,  586.0 ,0.0017064846416382253 ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Erick Gutiérrez              ,mx MEX  ,CC       ,Guadalajara ,29.0 ,          15.0 , 1119.0 ,0.0                   ,0.0008936550491510277 ,            0.0 ,0.002680965147453083  ,      0.0
+Ricardo Gutiérrez            ,mx MEX  ,PO       ,Mazatlán    ,27.0 ,           1.0 ,   45.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Nahuel Guzmán                ,ar ARG  ,PO       ,UANL        ,38.0 ,          11.0 ,  990.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Víctor Guzmán                ,mx MEX  ,"DL,CC"  ,Guadalajara ,29.0 ,          15.0 ,  583.0 ,0.0017152658662092624 ,0.0017152658662092624 ,            0.0 ,0.003430531732418525  ,      0.0
+Víctor Guzmán                ,mx MEX  ,DF       ,Monterrey   ,22.0 ,          15.0 , 1032.0 ,0.0                   ,0.0                   ,            0.0 ,0.0009689922480620155 ,      0.0
+Helinho                      ,br BRA  ,DL       ,Toluca      ,24.0 ,           4.0 ,  188.0 ,0.005319148936170213  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Diego Hernández              ,uy URU  ,"CC,DL"  ,León        ,24.0 ,          13.0 ,  773.0 ,0.00258732212160414   ,0.00258732212160414   ,            0.0 ,0.0038809831824062097 ,      0.0
+Illian Hernandez             ,mx MEX  ,"DL,DF"  ,América     ,24.0 ,           6.0 ,  126.0 ,0.007936507936507936  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Javier Hernández             ,mx MEX  ,DL       ,Guadalajara ,36.0 ,           6.0 ,  307.0 ,0.0                   ,0.003257328990228013  ,            0.0 ,0.0                   ,      0.0
+Jesús Hernández              ,mx MEX  ,"DL,CC"  ,León        ,23.0 ,           4.0 ,  170.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Pedro Hernández              ,mx MEX  ,CC       ,León        ,24.0 ,           1.0 ,    1.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Sebastián Hernández          ,mx MEX  ,"CC,DL"  ,Querétaro   ,20.0 ,           8.0 ,  396.0 ,0.0                   ,0.0                   ,            0.0 ,0.007575757575757576  ,      0.0
+Alberto Herrera              ,mx MEX  ,"CC,DL"  ,Puebla      ,23.0 ,          14.0 ,  698.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Ozziel Herrera               ,mx MEX  ,"DL,CC"  ,UANL        ,23.0 ,          16.0 ,  724.0 ,0.003453038674033149  ,0.0                   ,            0.0 ,0.0027624309392265192 ,      0.0
+Héctor Holguín               ,mx MEX  ,PO       ,Santos      ,23.0 ,           1.0 ,   90.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+César Huerta                 ,mx MEX  ,"DL,CC"  ,UNAM        ,23.0 ,          15.0 , 1290.0 ,0.001937984496124031  ,0.001937984496124031  ,            0.0 ,0.003875968992248062  ,      0.0
+Rodrigo Huescas              ,mx MEX  ,DF       ,Cruz Azul   ,21.0 ,           1.0 ,   90.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Avilés Hurtado               ,co COL  ,"DL,CC"  ,FC Juárez   ,37.0 ,           8.0 ,  335.0 ,0.0029850746268656717 ,0.0                   ,            0.0 ,0.0029850746268656717 ,      0.0
+Nicolás Ibáñez               ,ar ARG  ,DL       ,UANL        ,30.0 ,          17.0 ,  730.0 ,0.003424657534246575  ,0.0                   ,            0.0 ,0.0013698630136986301 ,      0.0
+Oussama Idrissi              ,ma MAR  ,DL       ,Pachuca     ,28.0 ,          16.0 , 1092.0 ,0.0018315018315018315 ,0.0022893772893772895 ,            0.0 ,0.0027472527472527475 ,      0.0
+Hugo Isaác Rodríguez         ,mx MEX  ,DF       ,Santos      ,34.0 ,           2.0 ,   76.0 ,0.0                   ,0.0                   ,            0.0 ,0.013157894736842105  ,      0.0
+Mauricio Isais               ,mx MEX  ,"CC,DF"  ,León        ,23.0 ,           2.0 ,   26.0 ,0.038461538461538464  ,0.0                   ,            0.0 ,0.038461538461538464  ,      0.0
+Omar Israel Mendoza          ,mx MEX  ,DF       ,Querétaro   ,36.0 ,          15.0 , 1202.0 ,0.0                   ,0.0008319467554076539 ,            0.0 ,0.0024958402662229617 ,      0.0
+Miguel Jiménez Ponce         ,mx MEX  ,PO       ,Puebla      ,34.0 ,          13.0 , 1170.0 ,0.0                   ,0.0                   ,            0.0 ,0.0008547008547008547 ,      0.0
+Ricardo Jiménez              ,mx MEX  ,CC       ,Necaxa      ,18.0 ,           1.0 ,    1.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Tahiel Jiménez               ,mx MEX  ,"CC,DL"  ,Santos      ,18.0 ,          10.0 ,  397.0 ,0.0025188916876574307 ,0.0                   ,            0.0 ,0.007556675062972292  ,      0.0
+Joaquim                      ,br BRA  ,DF       ,UANL        ,25.0 ,          13.0 , 1162.0 ,0.0                   ,0.0008605851979345956 ,            0.0 ,0.0017211703958691911 ,      0.0
+José Joaquín Esquivel        ,mx MEX  ,DF       ,Mazatlán    ,26.0 ,           6.0 ,  363.0 ,0.0                   ,0.0                   ,            0.0 ,0.005509641873278237  ,      0.0
+Julio José González          ,mx MEX  ,PO       ,UNAM        ,33.0 ,          13.0 , 1170.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Juan José Sánchez            ,co COL  ,"DF,CC"  ,UANL        ,26.0 ,           2.0 ,   28.0 ,0.0                   ,0.0                   ,            0.0 ,0.03571428571428571   ,      0.0
+José Juan Macías             ,mx MEX  ,"DL,CC"  ,Santos      ,25.0 ,           2.0 ,   44.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Ramón Juárez                 ,mx MEX  ,DF       ,América     ,23.0 ,          10.0 ,  760.0 ,0.0013157894736842105 ,0.0                   ,            0.0 ,0.002631578947368421  ,      0.0
+Heriberto Jurado             ,mx MEX  ,"DL,DF"  ,Necaxa      ,19.0 ,          13.0 ,  866.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Sebastián Jurado             ,mx MEX  ,PO       ,FC Juárez   ,27.0 ,           4.0 ,  360.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Mateo Klimowicz              ,de GER  ,"DL,CC"  ,Atlético    ,24.0 ,          11.0 ,  562.0 ,0.004448398576512456  ,0.0017793594306049821 ,            0.0 ,0.0                   ,      0.0
+Roberto de la Rosa           ,mx MEX  ,"DL,CC"  ,Monterrey   ,24.0 ,          10.0 ,  241.0 ,0.0                   ,0.004149377593360996  ,            0.0 ,0.0                   ,      0.0
+Diego Lainez                 ,mx MEX  ,DL       ,UANL        ,24.0 ,          12.0 ,  608.0 ,0.0                   ,0.004111842105263158  ,            0.0 ,0.0                   ,      0.0
+Mauro Laínez                 ,mx MEX  ,"CC,DF"  ,Mazatlán    ,28.0 ,          10.0 ,  188.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Emilio Lara                  ,mx MEX  ,DF       ,América     ,22.0 ,           1.0 ,   59.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Emilio Lara                  ,mx MEX  ,DF       ,Necaxa      ,22.0 ,           9.0 ,  637.0 ,0.0                   ,0.0015698587127158557 ,            0.0 ,0.0015698587127158557 ,      0.0
+Israel Larios                ,mx MEX  ,"DL,CC"  ,Atlas       ,21.0 ,          10.0 ,  185.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Federico Lértora             ,ar ARG  ,CC       ,Querétaro   ,34.0 ,          17.0 , 1525.0 ,0.0006557377049180328 ,0.0013114754098360656 ,            0.0 ,0.002622950819672131  ,      0.0
+Mateo Levy                   ,mx MEX  ,"DL,CC"  ,Cruz Azul   ,18.0 ,           7.0 ,  191.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Igor Lichnovsky              ,cl CHI  ,DF       ,América     ,30.0 ,           1.0 ,   90.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Erik Lira                    ,mx MEX  ,DF       ,Cruz Azul   ,24.0 ,          16.0 , 1311.0 ,0.0                   ,0.0                   ,            0.0 ,0.0015255530129672007 ,      0.0
+Aldo López                   ,mx MEX  ,"DF,CC"  ,Santos      ,24.0 ,          13.0 ,  947.0 ,0.0                   ,0.0010559662090813093 ,            0.0 ,0.0010559662090813093 ,      0.0
+César López                  ,mx MEX  ,"DL,CC"  ,FC Juárez   ,22.0 ,           3.0 ,   18.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Cesar López                  ,mx MEX  ,PO       ,Atlético    ,24.0 ,           1.0 ,   90.0 ,0.0                   ,0.0                   ,            0.0 ,0.011111111111111112  ,      0.0
+Eder López                   ,mx MEX  ,DF       ,FC Juárez   ,18.0 ,           4.0 ,  103.0 ,0.0                   ,0.0                   ,            0.0 ,0.009708737864077669  ,      0.0
+Edgar López                  ,mx MEX  ,"DL,CC"  ,Toluca      ,25.0 ,          12.0 ,  293.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Rodrigo López                ,mx MEX  ,"DF,CC"  ,UNAM        ,23.0 ,          11.0 ,  243.0 ,0.00411522633744856   ,0.00411522633744856   ,            0.0 ,0.00411522633744856   ,      0.0
+Victor Lopez                 ,mx MEX  ,CC       ,Querétaro   ,21.0 ,           2.0 ,   49.0 ,0.02040816326530612   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Vladimir Loroña              ,mx MEX  ,"DF,DL"  ,Santos      ,26.0 ,           4.0 ,  242.0 ,0.0                   ,0.0                   ,            0.0 ,0.008264462809917356  ,      0.0
+Anthony Lozano               ,hn HON  ,DL       ,Santos      ,31.0 ,          13.0 ,  943.0 ,0.002651113467656416  ,0.0                   ,            0.0 ,0.0021208907741251328 ,      0.0
+Esteban Lozano               ,mx MEX  ,DL       ,América     ,21.0 ,           1.0 ,   31.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+José Lozano                  ,mx MEX  ,"DL,CC"  ,Atlas       ,26.0 ,          16.0 , 1019.0 ,0.001962708537782139  ,0.0024533856722276743 ,            0.0 ,0.002944062806673209  ,      0.0
+José Luis Rodríguez          ,pa PAN  ,"CC,DL"  ,FC Juárez   ,26.0 ,           9.0 ,  422.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Oscar Macías                 ,mx MEX  ,CC       ,Atlético    ,26.0 ,          13.0 ,  953.0 ,0.001049317943336831  ,0.001049317943336831  ,            0.0 ,0.0                   ,      0.0
+Waldo Madrid                 ,mx MEX  ,DL       ,Necaxa      ,21.0 ,           1.0 ,   27.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Fernando Madrigal            ,mx MEX  ,CC       ,Tijuana     ,33.0 ,           4.0 ,  191.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Lisandro Magallán            ,ar ARG  ,DF       ,UNAM        ,31.0 ,          12.0 , 1062.0 ,0.0                   ,0.0                   ,            0.0 ,0.0018832391713747645 ,      0.0
+Óscar Manzanarez             ,mx MEX  ,DF       ,Querétaro   ,29.0 ,           8.0 ,  596.0 ,0.0                   ,0.0                   ,            0.0 ,0.006711409395973154  ,      0.0
+Cristian Mares               ,mx MEX  ,CC       ,Puebla      ,20.0 ,           1.0 ,   11.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Antonio María                ,mx MEX  ,DL       ,Querétaro   ,20.0 ,           1.0 ,   59.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Ricardo Marín                ,mx MEX  ,"DL,CC"  ,Guadalajara ,26.0 ,          13.0 ,  565.0 ,0.004424778761061947  ,0.0017699115044247787 ,            0.0 ,0.0                   ,      0.0
+Salvador Mariscal            ,mx MEX  ,"CC,DF"  ,Santos      ,21.0 ,          15.0 , 1082.0 ,0.0                   ,0.0                   ,            0.0 ,0.0027726432532347504 ,      0.0
+Ángel Márquez                ,mx MEX  ,CC       ,Atlas       ,24.0 ,          17.0 , 1312.0 ,0.0019054878048780487 ,0.0007621951219512195 ,            0.0 ,0.0022865853658536584 ,      0.0
+Henry Martín                 ,mx MEX  ,DL       ,América     ,32.0 ,          17.0 , 1271.0 ,0.001966955153422502  ,0.001966955153422502  ,            0.0 ,0.0                   ,      0.0
+Guillermo Martínez Ayala     ,mx MEX  ,DL       ,UNAM        ,29.0 ,          17.0 ,  943.0 ,0.002651113467656416  ,0.0010604453870625664 ,            0.0 ,0.0021208907741251328 ,      0.0
+Gabriel Martínez             ,mx MEX  ,DF       ,Atlético    ,22.0 ,           2.0 ,    9.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Emilio Martínez González     ,mx MEX  ,DF       ,Necaxa      ,21.0 ,          11.0 ,  789.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Alejandro Mayorga            ,mx MEX  ,DF       ,Necaxa      ,27.0 ,          15.0 , 1026.0 ,0.0                   ,0.0009746588693957114 ,            0.0 ,0.0009746588693957114 ,      0.0
+Alan Medina                  ,mx MEX  ,"CC,DF"  ,Querétaro   ,27.0 ,          14.0 ,  547.0 ,0.0                   ,0.003656307129798903  ,            0.0 ,0.0                   ,      0.0
+Alan Medina                  ,uy URU  ,"CC,DL"  ,León        ,26.0 ,           4.0 ,  220.0 ,0.0                   ,0.0                   ,            0.0 ,0.004545454545454545  ,      0.0
+Diego Medina                 ,mx MEX  ,"DL,DF"  ,Santos      ,23.0 ,           7.0 ,  475.0 ,0.0                   ,0.0                   ,            0.0 ,0.002105263157894737  ,      0.0
+Stefan Medina                ,co COL  ,DF       ,Monterrey   ,32.0 ,          14.0 , 1158.0 ,0.0                   ,0.0008635578583765112 ,            0.0 ,0.0025906735751295338 ,      0.0
+Aaron Mejía Montoya          ,mx MEX  ,"DF,CC"  ,Tijuana     ,23.0 ,          17.0 , 1165.0 ,0.0                   ,0.0                   ,            0.0 ,0.0008583690987124463 ,      0.0
+Ángel Mena                   ,ec ECU  ,"CC,DL"  ,Pachuca     ,36.0 ,           5.0 ,  175.0 ,0.0                   ,0.0                   ,            0.0 ,0.005714285714285714  ,      0.0
+Alex Mendez                  ,us USA  ,"DL,CC"  ,FC Juárez   ,24.0 ,           3.0 ,   25.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Bruno Méndez                 ,uy URU  ,DF       ,Toluca      ,25.0 ,          10.0 ,  682.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Stiven Mendoza               ,co COL  ,"CC,DL"  ,León        ,32.0 ,          12.0 ,  953.0 ,0.0026232948583420775 ,0.0                   ,            0.0 ,0.004197271773347324  ,      0.0
+Jean Meneses                 ,cl CHI  ,DL       ,Toluca      ,31.0 ,           4.0 ,  249.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Roberto Meraz                ,mx MEX  ,CC       ,Mazatlán    ,25.0 ,          15.0 , 1269.0 ,0.0                   ,0.0007880220646178094 ,            0.0 ,0.003940110323089046  ,      0.0
+Lucas Merolla                ,ar ARG  ,DF       ,Mazatlán    ,29.0 ,           7.0 ,  478.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Maximiliano Meza             ,ar ARG  ,"CC,DL"  ,Monterrey   ,31.0 ,           3.0 ,  199.0 ,0.0                   ,0.0                   ,            0.0 ,0.005025125628140704  ,      0.0
+Andrés Micolta               ,ec ECU  ,DF       ,Pachuca     ,25.0 ,           4.0 ,  292.0 ,0.0                   ,0.0                   ,            0.0 ,0.003424657534246575  ,      0.0
+Kevin Mier                   ,co COL  ,PO       ,Cruz Azul   ,24.0 ,          17.0 , 1530.0 ,0.0                   ,0.0                   ,            0.0 ,0.00065359477124183   ,      0.0
+Fernando Monárrez            ,mx MEX  ,"DF,DL"  ,Tijuana     ,25.0 ,           2.0 ,   55.0 ,0.0                   ,0.0                   ,            0.0 ,0.01818181818181818   ,      0.0
+Ricardo Monreal              ,mx MEX  ,"DL,CC"  ,Necaxa      ,23.0 ,          17.0 ,  796.0 ,0.001256281407035176  ,0.0                   ,            0.0 ,0.002512562814070352  ,      0.0
+Pablo Monroy                 ,mx MEX  ,DF       ,UNAM        ,22.0 ,           7.0 ,  243.0 ,0.0                   ,0.0                   ,            0.0 ,0.00823045267489712   ,      0.0
+Andres Montaño               ,mx MEX  ,"CC,DL"  ,Cruz Azul   ,22.0 ,          15.0 ,  381.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Alán Montes                  ,mx MEX  ,DF       ,Necaxa      ,24.0 ,          15.0 , 1211.0 ,0.0008257638315441783 ,0.0                   ,            0.0 ,0.004128819157720892  ,      0.0
+Elias Montiel                ,mx MEX  ,CC       ,Pachuca     ,19.0 ,          13.0 , 1157.0 ,0.000864304235090752  ,0.000864304235090752  ,            0.0 ,0.000864304235090752  ,      0.0
+Adrián Mora                  ,mx MEX  ,DF       ,Atlas       ,27.0 ,          11.0 ,  591.0 ,0.0                   ,0.001692047377326565  ,            0.0 ,0.001692047377326565  ,      0.0
+Gilberto Mora                ,mx MEX  ,"DL,CC"  ,Tijuana     ,16.0 ,          12.0 ,  530.0 ,0.0018867924528301887 ,0.0018867924528301887 ,            0.0 ,0.0018867924528301887 ,      0.0
+Amaury Morales               ,mx MEX  ,"CC,DL"  ,Cruz Azul   ,18.0 ,          10.0 ,  191.0 ,0.005235602094240838  ,0.0                   ,            0.0 ,0.005235602094240838  ,      0.0
+Robert Morales               ,py PAR  ,DL       ,Toluca      ,25.0 ,           3.0 ,   90.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Carlos Moreno                ,mx MEX  ,PO       ,Pachuca     ,26.0 ,          15.0 , 1350.0 ,0.0                   ,0.0                   ,            0.0 ,0.0022222222222222222 ,      0.0
+Héctor Moreno                ,mx MEX  ,DF       ,Monterrey   ,36.0 ,          13.0 ,  929.0 ,0.0                   ,0.0                   ,            0.0 ,0.002152852529601722  ,      0.0
+Iker Moreno                  ,mx MEX  ,DF       ,Atlético    ,21.0 ,           7.0 ,  174.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Iván Moreno                  ,mx MEX  ,"DF,CC"  ,León        ,26.0 ,           7.0 ,  502.0 ,0.00398406374501992   ,0.00199203187250996   ,            0.0 ,0.00398406374501992   ,      0.0
+Omar Moreno                  ,mx MEX  ,CC       ,Mazatlán    ,19.0 ,           2.0 ,   36.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Alan Mozo                    ,mx MEX  ,DF       ,Guadalajara ,27.0 ,          17.0 , 1444.0 ,0.0013850415512465374 ,0.0006925207756232687 ,            0.0 ,0.0006925207756232687 ,      0.0
+Guillermo Muñoz              ,mx MEX  ,CC       ,Santos      ,20.0 ,           3.0 ,   53.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Santiago Muñóz               ,mx MEX  ,"DL,CC"  ,Santos      ,22.0 ,          15.0 ,  649.0 ,0.0030816640986132513 ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jhon Murillo                 ,ve VEN  ,"DL,DF"  ,Atlas       ,29.0 ,          17.0 , 1261.0 ,0.0015860428231562252 ,0.0015860428231562252 ,            0.0 ,0.0007930214115781126 ,      0.0
+Luis Nájera                  ,mx MEX  ,"CC,DL"  ,Atlético    ,21.0 ,          15.0 ,  910.0 ,0.0027472527472527475 ,0.0027472527472527475 ,            0.0 ,0.0                   ,      0.0
+Gonzalo Nápoli               ,uy URU  ,"CC,DL"  ,León        ,24.0 ,           3.0 ,   10.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Luis Navarrete               ,mx MEX  ,CC       ,Toluca      ,18.0 ,           1.0 ,    6.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Santiago Naveda              ,mx MEX  ,CC       ,Santos      ,23.0 ,          11.0 ,  835.0 ,0.0                   ,0.0011976047904191617 ,            0.0 ,0.0023952095808383233 ,      0.0
+Hugo Nervo                   ,ar ARG  ,DF       ,Atlas       ,33.0 ,          17.0 , 1530.0 ,0.0                   ,0.0                   ,            0.0 ,0.00065359477124183   ,      0.0
+Santiago Núñez               ,ar ARG  ,DF       ,Santos      ,24.0 ,           9.0 ,  701.0 ,0.0                   ,0.0                   ,            0.0 ,0.0042796005706134095 ,      0.0
+Lucas Ocampos                ,ar ARG  ,"DL,CC"  ,Monterrey   ,30.0 ,          10.0 ,  736.0 ,0.001358695652173913  ,0.0033967391304347825 ,            0.0 ,0.0                   ,      0.0
+Agustín Oliveros             ,uy URU  ,DF       ,Necaxa      ,26.0 ,          17.0 , 1530.0 ,0.0                   ,0.00065359477124183   ,            0.0 ,0.00065359477124183   ,      0.0
+Sebastián Olmedo             ,py PAR  ,DF       ,Puebla      ,23.0 ,           7.0 ,  461.0 ,0.0                   ,0.0                   ,            0.0 ,0.006507592190889371  ,      0.0
+Santiago Ormeño              ,pe PER  ,DL       ,Puebla      ,30.0 ,           9.0 ,  482.0 ,0.004149377593360996  ,0.002074688796680498  ,            0.0 ,0.0                   ,      0.0
+Efraín Orona                 ,mx MEX  ,DF       ,Puebla      ,25.0 ,          17.0 , 1311.0 ,0.0                   ,0.0                   ,            0.0 ,0.0007627765064836003 ,      0.0
+Jesús Orozco                 ,mx MEX  ,DF       ,Guadalajara ,22.0 ,          15.0 , 1269.0 ,0.0                   ,0.0                   ,            0.0 ,0.002364066193853428  ,      0.0
+Ralph Orquin                 ,us USA  ,DF       ,FC Juárez   ,21.0 ,          17.0 , 1406.0 ,0.0                   ,0.0017780938833570413 ,            0.0 ,0.001422475106685633  ,      0.0
+Carlos Orrantía              ,mx MEX  ,DF       ,Toluca      ,33.0 ,           4.0 ,  192.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Haret Ortega                 ,mx MEX  ,"DF,CC"  ,FC Juárez   ,24.0 ,           9.0 ,  625.0 ,0.0016                ,0.0                   ,            0.0 ,0.0064                ,      0.0
+Kevin Ortega                 ,mx MEX  ,CC       ,Atlético    ,22.0 ,           3.0 ,    8.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Pablo Ortiz                  ,mx MEX  ,DF       ,Querétaro   ,22.0 ,           9.0 ,  469.0 ,0.0                   ,0.0021321961620469083 ,            0.0 ,0.0042643923240938165 ,      0.0
+Youssef Ortiz                ,mx MEX  ,DF       ,León        ,18.0 ,           1.0 ,    5.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Juan Pablo Vigón             ,mx MEX  ,CC       ,UANL        ,33.0 ,          11.0 ,  246.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jose Pachuca                 ,mx MEX  ,DF       ,Puebla      ,19.0 ,          11.0 ,  506.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jonathan Padilla             ,mx MEX  ,"CC,DL"  ,Guadalajara ,18.0 ,           9.0 ,  370.0 ,0.005405405405405406  ,0.005405405405405406  ,            0.0 ,0.0                   ,      0.0
+Agustín Palavecino           ,ar ARG  ,CC       ,Necaxa      ,28.0 ,          17.0 , 1465.0 ,0.0017064846416382253 ,0.0013651877133105802 ,            0.0 ,0.0020477815699658703 ,      0.0
+José Paradela                ,ar ARG  ,CC       ,Necaxa      ,25.0 ,          17.0 , 1375.0 ,0.0018181818181818182 ,0.0018181818181818182 ,            0.0 ,0.002181818181818182  ,      0.0
+Paulinho                     ,pt POR  ,DL       ,Toluca      ,32.0 ,          17.0 , 1431.0 ,0.0017470300489168414 ,0.0017470300489168414 ,            0.0 ,0.001397624039133473  ,      0.0
+Pedro Pedraza                ,mx MEX  ,CC       ,Pachuca     ,24.0 ,          15.0 ,  885.0 ,0.0                   ,0.0                   ,            0.0 ,0.005649717514124294  ,      0.0
+Federico Pereira             ,uy URU  ,DF       ,Toluca      ,24.0 ,          10.0 ,  900.0 ,0.0011111111111111111 ,0.0                   ,            0.0 ,0.0022222222222222222 ,      0.0
+Aldahir Perez                ,mx MEX  ,CC       ,Querétaro   ,20.0 ,           3.0 ,   92.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Sebastián Pérez Bouquet      ,mx MEX  ,"CC,DL"  ,FC Juárez   ,21.0 ,           3.0 ,   33.0 ,0.0                   ,0.030303030303030304  ,            0.0 ,0.0                   ,      0.0
+Jonathan Pérez               ,mx MEX  ,DF       ,Santos      ,19.0 ,          10.0 ,  714.0 ,0.0014005602240896359 ,0.0                   ,            0.0 ,0.004201680672268907  ,      0.0
+Pavel Pérez                  ,mx MEX  ,"CC,DL"  ,Guadalajara ,26.0 ,           6.0 ,  144.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jonathan Perlaza             ,ec ECU  ,DF       ,Querétaro   ,27.0 ,           4.0 ,  202.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Yan Phillipe                 ,br BRA  ,"DL,CC"  ,Atlético    ,20.0 ,          13.0 ,  503.0 ,0.003976143141153081  ,0.0                   ,            0.0 ,0.0019880715705765406 ,      0.0
+Cristiano Piccini            ,it ITA  ,DF       ,Atlético    ,32.0 ,           2.0 ,  127.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jesús Piñuelas               ,mx MEX  ,CC       ,Toluca      ,26.0 ,           1.0 ,    1.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Gonzalo Piovi                ,ar ARG  ,DF       ,Cruz Azul   ,30.0 ,          15.0 , 1287.0 ,0.0                   ,0.0019425019425019425 ,            0.0 ,0.003885003885003885  ,      0.0
+Guido Pizarro                ,ar ARG  ,"DF,CC"  ,UANL        ,34.0 ,          16.0 , 1440.0 ,0.0006944444444444445 ,0.0                   ,            0.0 ,0.0020833333333333333 ,      0.0
+Rodolfo Pizarro              ,mx MEX  ,"CC,DL"  ,Mazatlán    ,30.0 ,           7.0 ,  395.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Osvaldo Rodríguez del Portal ,mx MEX  ,"DF,DL"  ,UANL        ,28.0 ,           3.0 ,  127.0 ,0.0                   ,0.0                   ,            0.0 ,0.007874015748031496  ,      0.0
+Osvaldo Rodríguez del Portal ,mx MEX  ,"DL,DF"  ,León        ,28.0 ,           2.0 ,   11.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Ayrton Preciado              ,ec ECU  ,"CC,DF"  ,Querétaro   ,30.0 ,           5.0 ,  132.0 ,0.007575757575757576  ,0.0                   ,            0.0 ,0.015151515151515152  ,      0.0
+Ronaldo Prieto               ,mx MEX  ,DF       ,Santos      ,27.0 ,           1.0 ,   70.0 ,0.0                   ,0.0                   ,            0.0 ,0.014285714285714285  ,      0.0
+Luis Puente                  ,mx MEX  ,DL       ,Pachuca     ,21.0 ,           2.0 ,   98.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Ignacio Pussetto             ,ar ARG  ,"CC,DL"  ,UNAM        ,28.0 ,          12.0 ,  537.0 ,0.0037243947858473    ,0.00186219739292365   ,            0.0 ,0.0                   ,      0.0
+Piero Quispe                 ,pe PER  ,CC       ,UNAM        ,23.0 ,          15.0 , 1115.0 ,0.0017937219730941704 ,0.0008968609865470852 ,            0.0 ,0.0017937219730941704 ,      0.0
+Héctor Ramírez               ,mx MEX  ,DF       ,UNAM        ,20.0 ,           2.0 ,  114.0 ,0.0                   ,0.008771929824561403  ,            0.0 ,0.0                   ,      0.0
+Miguel Ramírez               ,us USA  ,DL       ,América     ,22.0 ,           1.0 ,   22.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Paulo Ramírez                ,mx MEX  ,CC       ,Atlas       ,22.0 ,           5.0 ,  189.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+José Rangel Aguilar          ,mx MEX  ,PO       ,Guadalajara ,24.0 ,          17.0 , 1530.0 ,0.0                   ,0.0                   ,            0.0 ,0.00130718954248366   ,      0.0
+Luis Rey                     ,mx MEX  ,DF       ,Guadalajara ,22.0 ,           6.0 ,  342.0 ,0.0                   ,0.0                   ,            0.0 ,0.0029239766081871343 ,      0.0
+Cristian Reyes               ,mx MEX  ,"CC,DL"  ,Monterrey   ,18.0 ,           2.0 ,   20.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Diego Reyes                  ,mx MEX  ,CC       ,América     ,17.0 ,           2.0 ,    3.0 ,0.0                   ,0.0                   ,            0.0 ,0.3333333333333333    ,      0.0
+Diego Reyes                  ,mx MEX  ,DF       ,UANL        ,32.0 ,          14.0 ,  889.0 ,0.0                   ,0.0                   ,            0.0 ,0.0022497187851518562 ,      0.0
+Israel Reyes                 ,mx MEX  ,DF       ,América     ,24.0 ,          13.0 ,  955.0 ,0.0010471204188481676 ,0.0                   ,            0.0 ,0.0020942408376963353 ,      0.0
+Salvador Reyes               ,mx MEX  ,DF       ,León        ,26.0 ,          17.0 , 1495.0 ,0.0                   ,0.0006688963210702341 ,            0.0 ,0.0013377926421404682 ,      0.0
+Emanuel Reynoso              ,ar ARG  ,"CC,DL"  ,Tijuana     ,29.0 ,          14.0 ,  821.0 ,0.001218026796589525  ,0.0030450669914738123 ,            0.0 ,0.0036540803897685747 ,      0.0
+Luis Ricardo Reyes           ,mx MEX  ,DF       ,Atlas       ,33.0 ,          17.0 , 1374.0 ,0.000727802037845706  ,0.000727802037845706  ,            0.0 ,0.001455604075691412  ,      0.0
+Ángel Rico                   ,mx MEX  ,CC       ,UNAM        ,19.0 ,          12.0 ,  578.0 ,0.0017301038062283738 ,0.0                   ,            0.0 ,0.0017301038062283738 ,      0.0
+Martín Río                   ,ar ARG  ,"CC,DF"  ,Querétaro   ,23.0 ,          11.0 ,  659.0 ,0.0                   ,0.0                   ,            0.0 ,0.0030349013657056147 ,      0.0
+Víctor Ríos                  ,mx MEX  ,CC       ,Atlas       ,20.0 ,          11.0 ,  474.0 ,0.002109704641350211  ,0.0                   ,            0.0 ,0.002109704641350211  ,      0.0
+Jesús Rivas                  ,mx MEX  ,DF       ,UNAM        ,22.0 ,           3.0 ,  141.0 ,0.0                   ,0.0070921985815602835 ,            0.0 ,0.0                   ,      0.0
+Ulises Rivas                 ,mx MEX  ,"CC,DF"  ,UNAM        ,28.0 ,          15.0 ,  653.0 ,0.0015313935681470138 ,0.0                   ,            0.0 ,0.0030627871362940277 ,      0.0
+Christian Rivera             ,co COL  ,CC       ,Tijuana     ,28.0 ,          16.0 , 1175.0 ,0.002127659574468085  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Ignacio Rivero               ,uy URU  ,"CC,DF"  ,Cruz Azul   ,32.0 ,          16.0 ,  975.0 ,0.002564102564102564  ,0.0020512820512820513 ,            0.0 ,0.0041025641025641026 ,      0.0
+Ángel Robles                 ,mx MEX  ,"CC,DL"  ,Puebla      ,23.0 ,           5.0 ,   84.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Juan Robles                  ,mx MEX  ,"CC,DF"  ,Querétaro   ,21.0 ,          10.0 ,  489.0 ,0.002044989775051125  ,0.0                   ,            0.0 ,0.002044989775051125  ,      0.0
+Aldo Rocha                   ,mx MEX  ,CC       ,Atlas       ,32.0 ,          16.0 , 1268.0 ,0.0007886435331230284 ,0.0                   ,            0.0 ,0.0015772870662460567 ,      0.0
+Brian Rodríguez              ,uy URU  ,"DL,CC"  ,América     ,24.0 ,          11.0 ,  791.0 ,0.0031605562579013905 ,0.0031605562579013905 ,            0.0 ,0.0                   ,      0.0
+Charly Rodríguez             ,mx MEX  ,CC       ,Cruz Azul   ,27.0 ,          17.0 , 1310.0 ,0.0                   ,0.0019083969465648854 ,            0.0 ,0.0015267175572519084 ,      0.0
+David Rodriguez              ,us USA  ,CC       ,Atlético    ,22.0 ,           2.0 ,   22.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jesús Rodríguez              ,mx MEX  ,PO       ,Puebla      ,31.0 ,           4.0 ,  360.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jorge Rodríguez              ,mx MEX  ,"DF,CC"  ,Puebla      ,23.0 ,           4.0 ,  193.0 ,0.0                   ,0.0                   ,            0.0 ,0.010362694300518135  ,      0.0
+Lucas Rodríguez              ,ar ARG  ,CC       ,Querétaro   ,27.0 ,          16.0 , 1044.0 ,0.0009578544061302681 ,0.0009578544061302681 ,            0.0 ,0.0009578544061302681 ,      0.0
+Michell Rodríguez            ,mx MEX  ,"DL,DF"  ,UNAM        ,24.0 ,           4.0 ,   68.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Salvador Rodríguez           ,mx MEX  ,"DF,DL"  ,Mazatlán    ,23.0 ,           4.0 ,  132.0 ,0.0                   ,0.0                   ,            0.0 ,0.007575757575757576  ,      0.0
+Johan Rojas                  ,co COL  ,"CC,DL"  ,Monterrey   ,22.0 ,          12.0 ,  437.0 ,0.004576659038901602  ,0.002288329519450801  ,            0.0 ,0.004576659038901602  ,      0.0
+Luis Romo                    ,mx MEX  ,"CC,DF"  ,Cruz Azul   ,29.0 ,          16.0 , 1082.0 ,0.0                   ,0.0023105360443622922 ,            0.0 ,0.0018484288354898336 ,      0.0
+Salomón Rondón               ,ve VEN  ,DL       ,Pachuca     ,35.0 ,          13.0 ,  919.0 ,0.002720348204570185  ,0.002176278563656148  ,            0.0 ,0.001088139281828074  ,      0.0
+Bryan Roque                  ,mx MEX  ,"CC,DL"  ,Necaxa      ,20.0 ,           2.0 ,   11.0 ,0.0                   ,0.0                   ,            0.0 ,0.09090909090909091   ,      0.0
+Kevin Rosero                 ,co COL  ,"DL,CC"  ,Necaxa      ,25.0 ,          14.0 ,  333.0 ,0.003003003003003003  ,0.0                   ,            0.0 ,0.003003003003003003  ,      0.0
+Franco Rossano               ,mx MEX  ,DF       ,América     ,19.0 ,           2.0 ,    9.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Carlos Rotondi               ,ar ARG  ,"DF,DL"  ,Cruz Azul   ,27.0 ,          17.0 , 1368.0 ,0.001827485380116959  ,0.001827485380116959  ,            0.0 ,0.0014619883040935672 ,      0.0
+Fernando Rubén González      ,mx MEX  ,CC       ,Guadalajara ,30.0 ,          15.0 , 1264.0 ,0.0                   ,0.0                   ,            0.0 ,0.0031645569620253164 ,      0.0
+Rubio Rubin                  ,gt GUA  ,"DL,CC"  ,Querétaro   ,28.0 ,          10.0 ,  423.0 ,0.00591016548463357   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Brian Rubio                  ,mx MEX  ,DL       ,Mazatlán    ,28.0 ,          16.0 ,  865.0 ,0.002890173410404624  ,0.0                   ,            0.0 ,0.003468208092485549  ,      0.0
+Marcel Ruiz                  ,mx MEX  ,CC       ,Toluca      ,24.0 ,          16.0 , 1298.0 ,0.0007704160246533128 ,0.0007704160246533128 ,            0.0 ,0.003852080123266564  ,      0.0
+Franco Russo                 ,ar ARG  ,DF       ,Querétaro   ,30.0 ,          13.0 , 1169.0 ,0.000855431993156544  ,0.0                   ,            0.0 ,0.000855431993156544  ,      0.0
+Jorge Ruvalcaba              ,mx MEX  ,"CC,DF"  ,UNAM        ,23.0 ,          13.0 ,  798.0 ,0.002506265664160401  ,0.0012531328320802004 ,            0.0 ,0.0012531328320802004 ,      0.0
+Patricio Salas               ,mx MEX  ,DL       ,América     ,20.0 ,           1.0 ,    4.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Carlos Salcedo               ,mx MEX  ,DF       ,FC Juárez   ,31.0 ,          12.0 , 1059.0 ,0.0009442870632672333 ,0.0009442870632672333 ,            0.0 ,0.003777148253068933  ,      0.0
+José Saldívar                ,mx MEX  ,CC       ,Pachuca     ,21.0 ,           1.0 ,    5.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Sebastien Salles-Lamonge     ,fr FRA  ,"CC,DL"  ,Atlético    ,28.0 ,          17.0 , 1262.0 ,0.0019809825673534074 ,0.000792393026941363  ,            0.0 ,0.0                   ,      0.0
+Juan Sanabria                ,uy URU  ,"DF,CC"  ,Atlético    ,24.0 ,          16.0 , 1355.0 ,0.0007380073800738007 ,0.0007380073800738007 ,            0.0 ,0.002952029520295203  ,      0.0
+Andrés Sánchez               ,mx MEX  ,PO       ,Atlético    ,27.0 ,          16.0 , 1440.0 ,0.0                   ,0.0                   ,            0.0 ,0.0020833333333333333 ,      0.0
+Carlos Sánchez               ,mx MEX  ,DF       ,Pachuca     ,22.0 ,          11.0 ,  538.0 ,0.0018587360594795538 ,0.0037174721189591076 ,            0.0 ,0.0018587360594795538 ,      0.0
+Diego Sánchez                ,mx MEX  ,DL       ,UANL        ,19.0 ,           5.0 ,  221.0 ,0.0                   ,0.004524886877828055  ,            0.0 ,0.0                   ,      0.0
+Erick Sánchez                ,mx MEX  ,"CC,DL"  ,América     ,25.0 ,          14.0 ,  815.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jesús Sánchez García         ,mx MEX  ,DF       ,Guadalajara ,35.0 ,           1.0 ,   15.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Luis Sánchez                 ,mx MEX  ,DF       ,Mazatlán    ,24.0 ,          16.0 , 1272.0 ,0.0015723270440251573 ,0.0                   ,            0.0 ,0.0007861635220125787 ,      0.0
+Richard Sánchez              ,py PAR  ,"CC,DF"  ,América     ,28.0 ,          10.0 ,  616.0 ,0.0                   ,0.0016233766233766235 ,            0.0 ,0.0                   ,      0.0
+Raúl Sandoval                ,mx MEX  ,"DF,DL"  ,Necaxa      ,24.0 ,           6.0 ,   63.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Anderson Santamaría          ,pe PER  ,DF       ,Santos      ,32.0 ,          12.0 ,  956.0 ,0.0                   ,0.0010460251046025104 ,            0.0 ,0.005230125523012552  ,      0.0
+José Santiago Hernández      ,mx MEX  ,PO       ,Atlas       ,27.0 ,           3.0 ,  270.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Emilio Santillán             ,mx MEX  ,DF       ,Santos      ,21.0 ,           1.0 ,   74.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Sebastian Santos             ,mx MEX  ,"DF,CC"  ,León        ,21.0 ,           8.0 ,  633.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Francisco Sebastián Córdova  ,mx MEX  ,"DL,CC"  ,UANL        ,27.0 ,          16.0 ,  908.0 ,0.0011013215859030838 ,0.0027533039647577094 ,            0.0 ,0.0022026431718061676 ,      0.0
+Ángel Sepúlveda              ,mx MEX  ,DL       ,Cruz Azul   ,33.0 ,          17.0 ,  840.0 ,0.002976190476190476  ,0.0                   ,            0.0 ,0.002380952380952381  ,      0.0
+Gilberto Sepúlveda           ,mx MEX  ,DF       ,Guadalajara ,25.0 ,           8.0 ,  698.0 ,0.0014326647564469914 ,0.0                   ,            0.0 ,0.0028653295128939827 ,      0.0
+Leonardo Sepulveda           ,us USA  ,"DL,DF"  ,Guadalajara ,23.0 ,           3.0 ,   21.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jesús Serrato                ,mx MEX  ,CC       ,Atlas       ,18.0 ,           2.0 ,  143.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jordan Sierra                ,ec ECU  ,CC       ,Mazatlán    ,27.0 ,          16.0 ,  971.0 ,0.0                   ,0.0010298661174047373 ,            0.0 ,0.0                   ,      0.0
+Nathan Silva                 ,br BRA  ,DF       ,UNAM        ,27.0 ,          16.0 , 1440.0 ,0.0                   ,0.0                   ,            0.0 ,0.002777777777777778  ,      0.0
+Carlo Soldati                ,mx MEX  ,DF       ,Querétaro   ,19.0 ,           1.0 ,   13.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Ramiro Sordo                 ,ar ARG  ,"DL,CC"  ,Santos      ,24.0 ,          14.0 , 1056.0 ,0.000946969696969697  ,0.0023674242424242425 ,            0.0 ,0.002840909090909091  ,      0.0
+Samuel Sosa                  ,ve VEN  ,DL       ,Querétaro   ,24.0 ,          13.0 ,  638.0 ,0.001567398119122257  ,0.001567398119122257  ,            0.0 ,0.006269592476489028  ,      0.0
+Leonardo Suárez              ,ar ARG  ,"CC,DL"  ,UNAM        ,28.0 ,           4.0 ,  250.0 ,0.0                   ,0.004                 ,            0.0 ,0.0                   ,      0.0
+Fernando Tapia               ,mx MEX  ,PO       ,UANL        ,23.0 ,           3.0 ,  270.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Juan Tejeda                  ,mx MEX  ,DF       ,Santos      ,20.0 ,           1.0 ,    1.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Eduardo Tercero              ,mx MEX  ,DF       ,UANL        ,28.0 ,           1.0 ,   39.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Iván Tona                    ,mx MEX  ,CC       ,Tijuana     ,24.0 ,          13.0 ,  949.0 ,0.0                   ,0.001053740779768177  ,            0.0 ,0.003161222339304531  ,      0.0
+Alan Torres                  ,mx MEX  ,CC       ,Mazatlán    ,24.0 ,           9.0 ,  641.0 ,0.0                   ,0.0                   ,            0.0 ,0.0015600624024961    ,      0.0
+Jairo Torres                 ,mx MEX  ,"DL,CC"  ,FC Juárez   ,24.0 ,          17.0 , 1407.0 ,0.0014214641080312722 ,0.0014214641080312722 ,            0.0 ,0.0021321961620469083 ,      0.0
+Óliver Torres                ,es ESP  ,"CC,DL"  ,Monterrey   ,30.0 ,          13.0 ,  874.0 ,0.0                   ,0.0011441647597254005 ,            0.0 ,0.0011441647597254005 ,      0.0
+Román Torres                 ,mx MEX  ,"DF,DL"  ,Necaxa      ,19.0 ,           1.0 ,    6.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Santiago Trigos              ,mx MEX  ,CC       ,UNAM        ,22.0 ,           9.0 ,  160.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Ezequiel Unsain              ,ar ARG  ,PO       ,Necaxa      ,29.0 ,          17.0 , 1530.0 ,0.0                   ,0.0                   ,            0.0 ,0.00065359477124183   ,      0.0
+Héctor Uribe                 ,mx MEX  ,DL       ,León        ,20.0 ,           4.0 ,   44.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Diego Valdés                 ,cl CHI  ,"CC,DL"  ,América     ,30.0 ,          11.0 ,  576.0 ,0.0                   ,0.003472222222222222  ,            0.0 ,0.0                   ,      0.0
+Christian Valdivia           ,mx MEX  ,DF       ,Cruz Azul   ,19.0 ,           1.0 ,   19.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Diego Valoyes                ,co COL  ,"DL,CC"  ,FC Juárez   ,28.0 ,           9.0 ,  578.0 ,0.0017301038062283738 ,0.0017301038062283738 ,            0.0 ,0.0017301038062283738 ,      0.0
+Camilo Vargas                ,co COL  ,PO       ,Atlas       ,35.0 ,          14.0 , 1260.0 ,0.0                   ,0.0                   ,            0.0 ,0.0007936507936507937 ,      0.0
+William Vargas               ,ec ECU  ,DF       ,Mazatlán    ,27.0 ,           4.0 ,  163.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Brandon Vazquez              ,us USA  ,"DL,CC"  ,Monterrey   ,26.0 ,          16.0 ,  554.0 ,0.004512635379061372  ,0.0018050541516245488 ,            0.0 ,0.0                   ,      0.0
+Brayton Vázquez              ,mx MEX  ,DF       ,Querétaro   ,26.0 ,           4.0 ,  293.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Miguel Vázquez               ,mx MEX  ,DF       ,América     ,20.0 ,           7.0 ,  477.0 ,0.0                   ,0.0                   ,            0.0 ,0.0020964360587002098 ,      0.0
+Alexis Vega                  ,mx MEX  ,"CC,DL"  ,Toluca      ,27.0 ,          17.0 , 1166.0 ,0.002144082332761578  ,0.002144082332761578  ,            0.0 ,0.0017152658662092624 ,      0.0
+Jesús Vega                   ,mx MEX  ,"DL,CC"  ,Tijuana     ,24.0 ,           5.0 ,  204.0 ,0.0                   ,0.012254901960784314  ,            0.0 ,0.0                   ,      0.0
+Sebastián Vegas              ,cl CHI  ,DF       ,Monterrey   ,27.0 ,          10.0 ,  629.0 ,0.0                   ,0.001589825119236884  ,            0.0 ,0.003179650238473768  ,      0.0
+Kevin Velasco                ,co COL  ,CC       ,Puebla      ,27.0 ,           6.0 ,  221.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Jesús Venegas                ,mx MEX  ,"CC,DL"  ,FC Juárez   ,29.0 ,          10.0 ,  374.0 ,0.00267379679144385   ,0.00267379679144385   ,            0.0 ,0.00267379679144385   ,      0.0
+Jonatan Villal               ,us USA  ,"CC,DL"  ,Atlético    ,19.0 ,           2.0 ,    3.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Fran Villalba                ,es ESP  ,"DL,CC"  ,Santos      ,26.0 ,          12.0 ,  535.0 ,0.001869158878504673  ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Dieter Villalpando           ,mx MEX  ,"CC,DL"  ,FC Juárez   ,33.0 ,          17.0 , 1121.0 ,0.0                   ,0.0                   ,            0.0 ,0.0026761819803746653 ,      0.0
+Isaías Violante              ,mx MEX  ,"DL,CC"  ,Toluca      ,21.0 ,          13.0 ,  793.0 ,0.0031525851197982345 ,0.0031525851197982345 ,            0.0 ,0.0037831021437578815 ,      0.0
+Vitinho                      ,br BRA  ,"DL,CC"  ,Atlético    ,23.0 ,           7.0 ,  309.0 ,0.003236245954692557  ,0.0                   ,            0.0 ,0.003236245954692557  ,      0.0
+Tiago Volpi                  ,br BRA  ,PO       ,Toluca      ,33.0 ,          17.0 , 1530.0 ,0.0                   ,0.0                   ,            0.0 ,0.00065359477124183   ,      0.0
+Facundo Waller               ,uy URU  ,CC       ,Puebla      ,27.0 ,          12.0 ,  622.0 ,0.0                   ,0.001607717041800643  ,            0.0 ,0.003215434083601286  ,      0.0
+Teun Wilke                   ,mx MEX  ,DL       ,Guadalajara ,22.0 ,           2.0 ,  122.0 ,0.0                   ,0.0                   ,            0.0 ,0.0                   ,      0.0
+Édgar Yoel Bárcenas          ,pa PAN  ,"CC,DL"  ,Mazatlán    ,31.0 ,          16.0 , 1338.0 ,0.0                   ,0.0014947683109118087 ,            0.0 ,0.0014947683109118087 ,      0.0
+Ángel Zaldívar               ,mx MEX  ,DL       ,FC Juárez   ,30.0 ,          11.0 ,  495.0 ,0.005050505050505051  ,0.0                   ,            0.0 ,0.00202020202020202   ,      0.0
+Edgar Zaldívar               ,mx MEX  ,DF       ,Atlas       ,28.0 ,          16.0 , 1003.0 ,0.0009970089730807576 ,0.0                   ,            0.0 ,0.0009970089730807576 ,      0.0
+Alejandro Zendejas           ,us USA  ,"DL,CC"  ,América     ,26.0 ,          12.0 ,  843.0 ,0.002372479240806643  ,0.002372479240806643  ,            0.0 ,0.002372479240806643  ,      0.0
+José Zúñiga                  ,co COL  ,"DL,CC"  ,Tijuana     ,30.0 ,          14.0 ,  762.0 ,0.0032808398950131233 ,0.0013123359580052493 ,            0.0 ,0.003937007874015748  ,      0.0
+Uroš Đurđević                ,me MNE  ,"DL,CC"  ,Atlas       ,30.0 ,           8.0 ,  198.0 ,0.0                   ,0.0                   ,            0.0 ,0.010101010101010102  ,      0.0
