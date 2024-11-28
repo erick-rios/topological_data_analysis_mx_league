@@ -5,7 +5,9 @@
 
 This project applies topological data analysis (TDA) techniques to the statistics of Liga MX, the top professional football league in Mexico. The goal is to uncover hidden patterns and insights from player performance data, leveraging persistent homology and principal component analysis (PCA) to understand the underlying structure of the league's performance metrics.
 
-![Liga MX](reports/figures/mapper/persistent_homology_graph.html)
+<iframe src="reports/topological_data_analysis.html" width="100%" height="600px">
+  This browser does not support inline frames.
+</iframe>
 
 
 
