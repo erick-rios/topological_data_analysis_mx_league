@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import typer
 from loguru import logger
-from tqdm import tqdm
 
 from topological_data_analysis_mx_league.config import FIGURES_DIR, PROCESSED_DATA_DIR
 

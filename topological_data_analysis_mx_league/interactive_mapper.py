@@ -16,7 +16,7 @@ app = typer.Typer()
 @app.command()
 def main(
     input_path: Path = INTERIM_DATA_DIR / "pca_components.csv",  # Cambiar por el archivo PCA
-    output_path: Path = FIGURES_DIR / "mapper/persistent_homology_graph.html",
+    output_path: Path = FIGURES_DIR / "mapper/persistent_homology_graph_two.html",
 ):
     try:
         logger.info("Loading dataset...")
